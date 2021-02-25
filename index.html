@@ -5,20 +5,20 @@
     <title>Reservia</title>
     <meta charset="utf-8" />
     <meta name="description" content="#" />
-    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <!--first link is for font awesome icons-->
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css" />
 </head>
 
 <body>
     <header>
-        <img id="logo" src="./images/logo/Reservia.svg" alt="company_logo" />
+        <img id="logo" src="./assets/images/logo/Reservia.svg" alt="company_logo" />
         <nav>
             <ul>
                 <li><a href="index.html#accomodations">Hébergements</a></li>
                 <li><a href="index.html#activities">Activités</a></li>
-                <li>S'inscrire</li>
             </ul>
+            <a href="#">S'inscrire</a>
         </nav>
     </header>
 
@@ -37,22 +37,25 @@
             </div>
             <form action='#' method="#">
                 <p>Filtres</p>
-                <a class="filters"><i class="fas fa-money-bill-wave"></i>Economique</a>
-                <a class="filters"><i class="fas fa-child"></i>Familial</a>
-                <a class="filters"><i class="fas fa-heart"></i>Romantique</a>
-                <a class="filters"><i class="fas fa-dog"></i>Animaux autorisés</a>
+                <a class="filters" href="#"><i class="fas fa-money-bill-wave"></i>Economique</a>
+                <a class="filters" href="#"><i class="fas fa-child"></i>Familial</a>
+                <a class="filters" href="#"><i class="fas fa-heart"></i>Romantique</a>
+                <a class="filters" href="#"><i class="fas fa-dog"></i>Animaux autorisés</a>
             </form>
             <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
         <section id="#accomodations">
             <div id="in_selected_city">
                 <h2>Hébergements à Marseille</h2>
-                <!--Instead of using many <div> for each card, i chose to use figure and figcaption within <a></a> so the whole structure can be clicked on. The pictures are displayed in html.-->
-                <a class="#" href="#">
+                <!--Instead of using many <div> for each card, i chose to use figure and figcaption within <a></a> so the whole structure can be clicked on. Inside figcaption, i used <dl> and <dd>. The pictures are displayed in html.-->
+                <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="#" />
+                        <img class="#" src="./assets/images/accomodations/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
                         <figcaption>
-
+                            <dl>
+                                <dd class="accomodation_name">Auberge de la Cannebière</dd>
+                                <dd class="price">Nuit à partir de 25</dd>
+                            </dl>
                         </figcaption>
                         <div class="stars">
                             <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
@@ -64,13 +67,17 @@
                         </div>
                     </figure>
                 </a>
-                <a class="#" href="#">
+                <a class="accomodation_card" href="#">
                     <figure>
-                        <img src="#" />
+                        <img class="#" src="./assets/images/accomodations/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
                         <figcaption>
-
+                            <dl>
+                                <dd class="accomodation_name">Hôtel du port</dd>
+                                <dd class="price">Nuit à partir de 52</dd>
+                            </dl>
                         </figcaption>
                         <div class="stars">
+                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -79,13 +86,55 @@
                         </div>
                     </figure>
                 </a>
-                <a class="#" href="#">
+                <a class="accomodation_card" href="#">
                     <figure>
-                        <img src="#" />
+                        <img class="#" src="./assets/images/accomodations/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
                         <figcaption>
-
+                            <dl>
+                                <dd class="accomodation_name">Hôtel Les mouettes </dd>
+                                <dd class="price">Nuit à partir de 76</dd>
+                            </dl>
                         </figcaption>
                         <div class="stars">
+                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
+                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
+                        </div>
+                    </figure>
+                </a>
+                <a class="accomodation_card" href="#">
+                    <figure>
+                        <img class="#" src="./assets/images/accomodations/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
+                        <figcaption>
+                            <dl>
+                                <dd class="accomodation_name">Hôtel de la mer</dd>
+                                <dd class="price">Nuit à partir de 46</dd>
+                            </dl>
+                        </figcaption>
+                        <div class="stars">
+                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
+                        </div>
+                    </figure>
+                </a>
+                <a class="accomodation_card" href="#">
+                    <figure>
+                        <img class="#" src="./assets/images/accomodations/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
+                        <figcaption>
+                            <dl>
+                                <dd class="accomodation_name">Auberge Le Panier</dd>
+                                <dd class="price">Nuit à partir de 23</dd>
+                            </dl>
+                        </figcaption>
+                        <div class="stars">
+                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -94,48 +143,22 @@
                         </div>
                     </figure>
                 </a>
-                <a class="#" href="#">
+                <a class="accomodation_card" href="#">
                     <figure>
-                        <img src="#" />
+                        <img class="#" src="./assets/images/accomodations/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
                         <figcaption>
-
+                            <dl>
+                                <dd class="accomodation_name">Hôtel chez Amina</dd>
+                                <dd class="price">Nuit à partir de 96</dd>
+                            </dl>
                         </figcaption>
                         <div class="stars">
+                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </figure>
-                </a>
-                <a class="#" href="#">
-                    <figure>
-                        <img src="#" />
-                        <figcaption>
-
-                        </figcaption>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </figure>
-                </a>
-                <a class="#" href="#">
-                    <figure>
-                        <img src="#" />
-                        <figcaption>
-
-                        </figcaption>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
                         </div>
                     </figure>
                 </a>
@@ -147,28 +170,61 @@
                     <h2>Les plus populaires</h2>
                     <i class="fas fa-chart-line"></i>
                 </div>
-                <a class="#" href="#">
+                <a class="accomodation_card" href="#">
                     <figure>
-                        <img src="#" />
+                        <img class="#" src="./assets/images/accomodations/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
                         <figcaption>
-
+                            <dl>
+                                <dd class="accomodation_name">Hôtel Le soleil du matin</dd>
+                                <dd class="price">Nuit à partir de 128</dd>
+                            </dl>
                         </figcaption>
+                        <div class="stars">
+                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </figure>
                 </a>
-                <a class="#" href="#">
+                <a class="accomodation_card" href="#">
                     <figure>
-                        <img src="#" />
+                        <img class="#" src="./assets/images/accomodations/aw-creative-VGs8z60yT2c-unsplash.jpg" />
                         <figcaption>
-
+                            <dl>
+                                <dd class="accomodation_name">Au coeur de l'eau Chambres d'hôtes</dd>
+                                <dd class="price">Nuit à partir de 71</dd>
+                            </dl>
                         </figcaption>
+                        <div class="stars">
+                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
+                        </div>
                     </figure>
                 </a>
-                <a class="#" href="#">
+                <a class="accomodation_card" href="#">
                     <figure>
-                        <img src="#" />
+                        <img class="#" src="./assets/images/accomodations/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
                         <figcaption>
-
+                            <dl>
+                                <dd class="accomodation_name">Hôtel tout bleu et Blanc</dd>
+                                <dd class="price"></dd>
+                            </dl>
                         </figcaption>
+                        <div class="stars">
+                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
+                        </div>
                     </figure>
                 </a>
 
@@ -178,49 +234,49 @@
             <h2>Activités à Marseille</h2>
             <a class="#" href="#">
                 <figure>
-                    <img src="#" />
+                    <img src="./assets/images/activities/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" />
                     <figcaption>
-
+                        Vieux Port
                     </figcaption>
                 </figure>
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="#" />
+                    <img src="./assets/images/activities/paul-hermann-QFTrLdQIRhI-unsplash.jpg" />
                     <figcaption>
-
+                        Fort de Pomègues
                     </figcaption>
                 </figure>
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="#" />
+                    <img src="./assets/images/activities/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" />
                     <figcaption>
-
+                        Îles du Frioul
                     </figcaption>
                 </figure>
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="#" />
+                    <img src="./assets/images/activities/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" />
                     <figcaption>
-
+                        Parc National des Calanques
                     </figcaption>
                 </figure>
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="#" />
+                    <img src="./assets/images/activities/florian-wehde-xW9e8gdotxI-unsplash.jpg" />
                     <figcaption>
-
+                        Notre-Dame-de-la-Garde
                     </figcaption>
                 </figure>
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="#" />
+                    <img src="./assets/images/activities/lena-paulin-wH2-EJoDcV0-unsplash.jpg" />
                     <figcaption>
-
+                        Parc Longchamp
                     </figcaption>
                 </figure>
             </a>
@@ -228,28 +284,24 @@
     </main>
 
     <footer>
-        <section>
+        <nav>
             <h3>A propos</h3>
             <ul>
                 <li>Fonctionnement du site</li>
                 <li>Conditions générales de vente</li>
                 <li>Données et confidentialité</li>
             </ul>
-        </section>
-        <section>
             <h3>Nos hébergements</h3>
             <ul>
                 <li>Charte qualité</li>
                 <li>Soumettre votre hôtel</li>
             </ul>
-        </section>
-        <section>
             <h3>Assistance</h3>
             <ul>
                 <li>Centre d'aide</li>
                 <li>Nous contacter</li>
             </ul>
-        </section>
+        </nav>
     </footer>
 
 </body>
