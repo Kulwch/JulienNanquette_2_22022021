@@ -1,0 +1,91 @@
+/* Body */
+
+body {
+    font-family: 'Raleway';
+}
+
+body a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+/* header */
+
+header {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header #logo {
+    width: 100px;
+}
+
+header nav {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+header nav p {
+    display: flex;
+    padding-left: 65px;
+    margin-right: 78px;
+    font-weight: bold;
+}
+
+header a {
+    color: #0065fc;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+    text-align: center;
+    padding-left: 65px;
+}
+
+
+/* Common rules for <main> */
+
+i .fas fa-star {
+    color:
+}
+
+
+/* Search section */
+
+
+/* Accomodations section */
+
+
+/* Most popular section */
+
+
+/* Activities section */
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+footer nav {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+}
+
+footer nav div {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+footer nav li {
+    list-style-type: none;
+}
