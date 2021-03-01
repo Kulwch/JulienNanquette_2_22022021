@@ -4,26 +4,20 @@
 <head>
     <title>Reservia</title>
     <meta charset="utf-8" />
-    <meta name="description" content="#" />
+    <meta name="description" content="Reservia, site de réservation d'hébergement de vacances" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    <!--first link is for font awesome icons-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
-    <!--these links are for the google fonts used -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
 </head>
 
 <body>
     <header>
-        <img id="logo" src="./assets/images/logo/Reservia.svg" alt="company_logo" />
+        <img id="logo" src="./assets/images/logo/Reservia.svg" alt="Reservia_logo" />
         <nav>
             <ul>
-                <li><a href="index.html#accomodations">Hébergements</a></li>
-                <li><a href="index.html#activities"><span style="color: black">Activités</span></a></li>
+                <li id="border"><a href="index.html#accomodations">Hébergements</a></li>
+                <li><a id="black_label" href="index.html#activities">Activités</a></li>
             </ul>
-            <p><a href="#">S'inscrire</a></p>
+            <a id="sign_in" href="#">S'inscrire</a>
         </nav>
     </header>
 
@@ -55,7 +49,7 @@
                 <!--Instead of using many <div> for each card, i chose to use figure and figcaption within <a></a> so the whole structure can be clicked on. Inside figcaption, i used <dl> and <dd>. The pictures are displayed in html.-->
                 <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="./assets/images/accomodations/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+                        <img class="#" src="./assets/images/hebergements/4 _small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
                         <figcaption>
                             <dl>
                                 <dt class="accomodation_name">Auberge de la Cannebière</dt>
@@ -72,7 +66,7 @@
                 </a>
                 <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="./assets/images/accomodations/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
+                        <img class="#" src="./assets/images/hebergements/4 _small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
                         <figcaption>
                             <dl>
                                 <dt class="accomodation_name">Hôtel du port</dt>
@@ -89,7 +83,7 @@
                 </a>
                 <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="./assets/images/accomodations/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
+                        <img class="#" src="./assets/images/hebergements/4 _small/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
                         <figcaption>
                             <dl>
                                 <dt class="accomodation_name">Hôtel Les mouettes </dt>
@@ -106,7 +100,7 @@
                 </a>
                 <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="./assets/images/accomodations/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
+                        <img class="#" src="./assets/images/hebergements/4 _small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
                         <figcaption>
                             <dl>
                                 <dt class="accomodation_name">Hôtel de la mer</dt>
@@ -123,7 +117,7 @@
                 </a>
                 <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="./assets/images/accomodations/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
+                        <img class="#" src="./assets/images/hebergements/4 _small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
                         <figcaption>
                             <dl>
                                 <dt class="accomodation_name">Auberge Le Panier</dt>
@@ -140,7 +134,7 @@
                 </a>
                 <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="./assets/images/accomodations/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
+                        <img class="#" src="./assets/images/hebergements/4 _small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
                         <figcaption>
                             <dl>
                                 <dt class="accomodation_name">Hôtel chez Amina</dt>
@@ -165,7 +159,7 @@
                 </div>
                 <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="./assets/images/accomodations/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
+                        <img class="#" src="./assets/images/hebergements/4 _small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
                         <figcaption>
                             <dl>
                                 <dt class="accomodation_name">Hôtel Le soleil du matin</dt>
@@ -182,7 +176,7 @@
                 </a>
                 <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="./assets/images/accomodations/aw-creative-VGs8z60yT2c-unsplash.jpg" />
+                        <img class="#" src="./assets/images/hebergements/4 _small/aw-creative-VGs8z60yT2c-unsplash.jpg" />
                         <figcaption>
                             <dl>
                                 <dt class="accomodation_name">Au coeur de l'eau Chambres d'hôtes</dt>
@@ -199,7 +193,7 @@
                 </a>
                 <a class="accomodation_card" href="#">
                     <figure>
-                        <img class="#" src="./assets/images/accomodations/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
+                        <img class="#" src="./assets/images/hebergements/4 _small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
                         <figcaption>
                             <dl>
                                 <dt class="accomodation_name">Hôtel tout bleu et Blanc</dt>
@@ -221,7 +215,7 @@
             <h2>Activités à Marseille</h2>
             <a class="#" href="#">
                 <figure>
-                    <img src="./assets/images/activities/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" />
+                    <img src="./assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" />
                     <figcaption>
                         Vieux Port
                     </figcaption>
@@ -229,7 +223,7 @@
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="./assets/images/activities/paul-hermann-QFTrLdQIRhI-unsplash.jpg" />
+                    <img src="./assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" />
                     <figcaption>
                         Fort de Pomègues
                     </figcaption>
@@ -237,7 +231,7 @@
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="./assets/images/activities/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" />
+                    <img src="./assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" />
                     <figcaption>
                         Îles du Frioul
                     </figcaption>
@@ -245,7 +239,7 @@
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="./assets/images/activities/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" />
+                    <img src="./assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" />
                     <figcaption>
                         Parc National des Calanques
                     </figcaption>
@@ -253,7 +247,7 @@
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="./assets/images/activities/florian-wehde-xW9e8gdotxI-unsplash.jpg" />
+                    <img src="./assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" />
                     <figcaption>
                         Notre-Dame-de-la-Garde
                     </figcaption>
@@ -261,7 +255,7 @@
             </a>
             <a class="#" href="#">
                 <figure>
-                    <img src="./assets/images/activities/lena-paulin-wH2-EJoDcV0-unsplash.jpg" />
+                    <img src="./assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" />
                     <figcaption>
                         Parc Longchamp
                     </figcaption>
