@@ -1,0 +1,38 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+ body {
+     font-family: 'Raleway';
+     display: flex;
+     width: 89.4%;
+     margin: auto;
+ }
+ 
+ body a {
+     text-decoration: none;
+ }
+ 
+ a:visited {
+     text-decoration: none;
+ }
+ 
+ header {}
+ 
+ header #logo {
+     height: 30px;
+     width: 95px;
+ }
+ 
+ #sign_in {
+     height: 10px;
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ header nav {
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ #border {
+     text-decoration: none;
+     list-style-type: none;
+ }

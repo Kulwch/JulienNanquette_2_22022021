@@ -33,13 +33,14 @@ header #logo {
 
 header nav {
     display: flex;
-    justify-content: space-between;
-    width: 450px;
+    justify-content: flex-end;
+    width: 55%;
+    margin-left: 150px;
 }
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 header nav ul li {
@@ -54,21 +55,17 @@ header nav ul li {
     border-top: 1px solid #0065fc;
 }
 
-header nav:nth-child(2) {
-    padding-right: 20px;
-}
-
 #black_label {
     color: black;
 }
 
 #sign_in {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: #0065fc;
     padding-top: 35px;
-    width: 150px;
+    width: 100px;
     font-weight: bold;
 }
 
