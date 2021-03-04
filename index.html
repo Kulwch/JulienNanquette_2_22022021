@@ -7,7 +7,7 @@
     <meta name="description" content="Reservia, site de réservation d'hébergement de vacances" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
 </head>
 
 <body>
@@ -27,23 +27,22 @@
         <!--Font awesome icons are used for each icon to be displayed. Styling is made with CSS rules. -->
         <section id="search">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+            <h2>En plein centre ville ou en pleine nature</h2>
             <div id="search_form">
                 <i class="fas fa-map-marker-alt"></i>
                 <form action="#" method="post">
-                    <input />
-                    <input />
-                    <input type="submit" name="search" value="Rechercher" />
+                    <input id="city" placeholder="Marseille, France" />
+                    <input id="search_city" type="submit" name="search_city" value="Rechercher" />
                 </form>
             </div>
-            <form action='#' method="post">
+            <form id="filters_form" action='#' method="post">
                 <p>Filtres</p>
                 <a class="filters" href="#"><i class="fas fa-money-bill-wave"></i>Economique</a>
                 <a class="filters" href="#"><i class="fas fa-child"></i>Familial</a>
                 <a class="filters" href="#"><i class="fas fa-heart"></i>Romantique</a>
                 <a class="filters" href="#"><i class="fas fa-dog"></i>Animaux autorisés</a>
             </form>
-            <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p class="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
         <section id="#accomodations">
             <h2>Hébergements à Marseille</h2>
