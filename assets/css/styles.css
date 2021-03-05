@@ -27,7 +27,7 @@ header {
 }
 
 header #logo {
-    width: 100px;
+    width: 6.70%;
     padding-top: 70px;
 }
 
@@ -35,12 +35,13 @@ header nav {
     display: flex;
     justify-content: flex-end;
     width: 55%;
-    margin-left: 300px;
+    margin-left: 28%;
 }
 
 header nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    height: 111px;
 }
 
 header nav ul li {
@@ -65,8 +66,8 @@ header nav ul li {
     justify-content: flex-start;
     align-items: center;
     color: #0065fc;
-    padding-top: 35px;
-    width: 100px;
+    padding-top: 10px;
+    width: 8%;
     font-weight: bold;
 }
 
@@ -108,7 +109,7 @@ h1 {
     align-items: center;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
-    width: 50px;
+    width: 5%;
     height: 50px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -118,6 +119,7 @@ h1 {
     padding-left: 20px;
     font-weight: bold;
     height: 48px;
+    width: 55%;
     border: 1px solid #F2F2F2;
 }
 
@@ -131,12 +133,19 @@ h1 {
 
 #search_city {
     height: 50px;
+    width: 35%;
     border: 1px solid #0065fc;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-left: -5px;
     background-color: #0065fc;
     color: white;
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+
+.fa-search {
+    display: none;
 }
 
 #search_form {
@@ -148,13 +157,14 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 70%;
     margin-top: 30px;
 }
 
 #filters_form p {
     display: flex;
     width: 30px;
+    margin-right: 2%;
     font-weight: bold;
 }
 
@@ -168,7 +178,7 @@ h1 {
     border-left: hidden;
     margin-left: 25px;
     padding-right: 15px;
-    font-size: 08pt;
+    font-size: 0.9em;
     font-weight: bolder;
     color: black;
 }
@@ -187,7 +197,7 @@ h1 {
     border-radius: 25px;
     background-color: #DEEBFF;
     margin-right: 10px;
-    font-size: 17px;
+    font-size: 1.3em;
 }
 
 .fa-info {
@@ -203,11 +213,11 @@ h1 {
     margin-right: 12px;
 }
 
-.info {
+#info {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    font-size: 12pt;
+    font-size: 1em;
 }
 
 
