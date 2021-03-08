@@ -2,6 +2,12 @@
 
 /* Body */
 
+* a,
+p,
+li {
+    font-family: 'Raleway', sans-serif;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     width: 100%;
@@ -27,8 +33,10 @@ header {
 }
 
 header #logo {
-    width: 6.70%;
+    height: 45px;
+    width: 10%;
     padding-top: 70px;
+    margin-left: -20px;
 }
 
 header nav {
@@ -50,7 +58,7 @@ header nav ul li {
     padding-top: 50px;
     width: 150px;
     justify-content: center;
-    font-size: 12pt;
+    font-size: 1rem;
 }
 
 #border {
@@ -88,12 +96,12 @@ main {
 
 h1 {
     width: 70%;
-    font-size: 12pt;
+    font-size: 1.3rem;
 }
 
 #search h2 {
     width: 25%;
-    font-size: 09pt;
+    font-size: 0.95rem;
     margin-top: -10px;
     font-weight: normal;
 }
@@ -103,13 +111,22 @@ h1 {
     flex-direction: column;
 }
 
+#search_form {
+    display: flex;
+    margin-top: 10px;
+}
+
+#search_form form {
+    width: 40%;
+}
+
 .fa-map-marker-alt {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
-    width: 5%;
+    width: 3.8%;
     height: 50px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -118,9 +135,11 @@ h1 {
 #city {
     padding-left: 20px;
     font-weight: bold;
+    font-size: 1rem;
     height: 48px;
-    width: 55%;
+    width: 35%;
     border: 1px solid #F2F2F2;
+    font-family: 'Raleway', sans-serif;
 }
 
 #city::placeholder {
@@ -133,29 +152,24 @@ h1 {
 
 #search_city {
     height: 50px;
-    width: 35%;
+    width: 25%;
     border: 1px solid #0065fc;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-left: -5px;
     background-color: #0065fc;
     color: white;
-    font-weight: bolder;
-    font-size: 0.8em;
+    font-weight: 600;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .fa-search {
     display: none;
 }
 
-#search_form {
-    display: flex;
-    margin-top: 10px;
-}
-
 #filters_form {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 70%;
     margin-top: 30px;
@@ -164,8 +178,9 @@ h1 {
 #filters_form p {
     display: flex;
     width: 30px;
-    margin-right: 2%;
+    margin-right: 3%;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 .filters {
@@ -176,9 +191,9 @@ h1 {
     border: 2px solid #d9d9d9;
     border-radius: 25px;
     border-left: hidden;
-    margin-left: 25px;
-    padding-right: 15px;
-    font-size: 0.9em;
+    margin-left: 3%;
+    padding-right: 2%;
+    font-size: 1rem;
     font-weight: bolder;
     color: black;
 }
@@ -191,13 +206,12 @@ h1 {
     justify-content: center;
     align-items: center;
     color: #0065fc;
-    width: 50px;
+    width: 48px;
     height: 48px;
     border: 1px solid #DEEBFF;
-    border-radius: 25px;
+    border-radius: 50%;
     background-color: #DEEBFF;
     margin-right: 10px;
-    font-size: 1.3em;
 }
 
 .fa-info {
@@ -206,8 +220,8 @@ h1 {
     align-items: center;
     height: 20px;
     width: 20px;
-    font-size: 13px;
-    border-radius: 10px;
+    font-size: 0.65rem;
+    border-radius: 50%;
     border: 1px solid #d9d9d9;
     color: #0065fc;
     margin-right: 12px;
@@ -217,7 +231,7 @@ h1 {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    font-size: 1em;
+    font-size: 0.9rem;
 }
 
 
