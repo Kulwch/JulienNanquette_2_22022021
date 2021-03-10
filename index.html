@@ -7,232 +7,254 @@
     <meta name="description" content="Reservia, site de réservation d'hébergement de vacances" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
-<body>
-    <header>
+<body class="width100">
+    <header class="display between auto-margin width93">
         <img id="logo" src="./assets/images/logo/Reservia.svg" alt="Reservia_logo" />
-        <nav>
-            <ul>
-                <li id="border"><a href="index.html#accomodations">Hébergements</a></li>
-                <li><a id="black_label" href="index.html#activities">Activités</a></li>
+        <nav class="display">
+            <ul class="display center-justify">
+                <li class="display nolist rem1 start-align center-justify"><a class="black" href="index.html#accomodations">Hébergements</a></li>
+                <li class="display nolist rem1 start-align center-justify"><a class="black" href="index.html#activities">Activités</a></li>
             </ul>
         </nav>
-        <a id="sign_in" href="#">S'inscrire</a>
+        <a class="sign_in display blue rem1 bold center-align start-justify" href="#">S'inscrire</a>
 
     </header>
 
-    <main>
+    <main class="display column width93">
         <!--Font awesome icons are used for each icon to be displayed. Styling is made with CSS rules. -->
-        <section id="search">
+        <section class="search display column auto-margin width93">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2>En plein centre ville ou en pleine nature</h2>
-            <div id="search_form">
-                <i class="fas fa-map-marker-alt"></i>
-                <form action="#" method="post">
-                    <input id="city" placeholder="Marseille, France" />
-                    <input id="search_city" type="submit" name="search_city" value="Rechercher" />
+            <div class="search_form display">
+                <i class="fas fa-map-marker-alt cursor hover display center greyback greyborder border-top-left-radius15"></i>
+                <form class="display" action="#" method="post">
+                    <input class="city display rem1 bold greyborder" placeholder="Marseille, France" />
+                    <input class="search_city cursor display rem1 bold" type="submit" name="search_city" value="Rechercher" />
                     <i class="fas fa-search"></i>
                 </form>
             </div>
-            <form id="filters_form" action='#' method="post">
-                <p>Filtres</p>
-                <a class="filters" href="#"><i class="fas fa-money-bill-wave"></i>Economique</a>
-                <a class="filters" href="#"><i class="fas fa-child"></i>Familial</a>
-                <a class="filters" href="#"><i class="fas fa-heart"></i>Romantique</a>
-                <a class="filters" href="#"><i class="fas fa-dog"></i>Animaux autorisés</a>
+            <form class="filters_form display center-align" action='#' method="post">
+                <p class="display rem1 bold">Filtres</p>
+                <a class="filters display rem1 bold black center-align start-justify" href="#"><i class="fas fa-money-bill-wave display center blue"></i>&Eacute;conomique</a>
+                <a class="filters display rem1 bold black center-align start-justify" href="#"><i class="fas fa-child display center blue"></i>Familial</a>
+                <a class="filters display rem1 bold black center-align start-justify" href="#"><i class="fas fa-heart display center blue"></i>Romantique</a>
+                <a class="filters display rem1 bold black center-align start-justify" href="#"><i class="fas fa-dog display center blue"></i>Animaux autorisés</a>
             </form>
-            <p id="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p class="info display center-align"><i class="fas fa-info display center blue"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
-        <section id="#accomodations">
-            <h2>Hébergements à Marseille</h2>
-            <!--Instead of using many <div> for each card, i chose to use figure and figcaption within <a></a> so the whole structure can be clicked on. Inside figcaption, i used <dl> and <dd>. The pictures are displayed in html.-->
-            <article>
-                <a class="accomodation_card" href="#">
-                    <figure>
-                        <img class="#" src="./assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
-                        <figcaption>
-                            <dl>
-                                <dt class="accomodation_name">Auberge de la Cannebière</dt>
-                                <dd class="price">Nuit à partir de 25&euro;</dd>
-                            </dl>
-                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article>
-                <a class="accomodation_card" href="#">
-                    <figure>
-                        <img class="#" src="./assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
-                        <figcaption>
-                            <dl>
-                                <dt class="accomodation_name">Hôtel du port</dt>
-                                <dd class="price">Nuit à partir de 52&euro;</dd>
-                            </dl>
-                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article>
-                <a class="accomodation_card" href="#">
-                    <figure>
-                        <img class="#" src="./assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
-                        <figcaption>
-                            <dl>
-                                <dt class="accomodation_name">Hôtel Les mouettes </dt>
-                                <dd class="price">Nuit à partir de 76&euro;</dd>
-                            </dl>
-                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
-                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article>
-                <a class="accomodation_card" href="#">
-                    <figure>
-                        <img class="#" src="./assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
-                        <figcaption>
-                            <dl>
-                                <dt class="accomodation_name">Hôtel de la mer</dt>
-                                <dd class="price">Nuit à partir de 46&euro;</dd>
-                            </dl>
-                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article>
-                <a class="accomodation_card" href="#">
-                    <figure>
-                        <img class="#" src="./assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
-                        <figcaption>
-                            <dl>
-                                <dt class="accomodation_name">Auberge Le Panier</dt>
-                                <dd class="price">Nuit à partir de 23&euro;</dd>
-                            </dl>
-                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article>
-                <a class="accomodation_card" href="#">
-                    <figure>
-                        <img class="#" src="./assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
-                        <figcaption>
-                            <dl>
-                                <dt class="accomodation_name">Hôtel chez Amina</dt>
-                                <dd class="price">Nuit à partir de 96&euro;</dd>
-                            </dl>
-                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <a id="display_more" href="#">Afficher plus</a>
-        </section>
-        <section id="most_popular">
-            <div id="most_popular_title">
-                <h2>Les plus populaires</h2>
-                <i class="fas fa-chart-line"></i>
-            </div>
-            <article>>
-                <a class="accomodation_card" href="#">
-                    <figure>
-                        <img class="#" src="./assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
-                        <figcaption>
-                            <dl>
-                                <dt class="accomodation_name">Hôtel Le soleil du matin</dt>
-                                <dd class="price">Nuit à partir de 128&euro;</dd>
-                            </dl>
-                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article>
-                <a class="accomodation_card" href="#">
-                    <figure>
-                        <img class="#" src="./assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" />
-                        <figcaption>
-                            <dl>
-                                <dt class="accomodation_name">Au coeur de l'eau Chambres d'hôtes</dt>
-                                <dd class="price">Nuit à partir de 71&euro;</dd>
-                            </dl>
-                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-            <article>
-                <a class="accomodation_card" href="#">
-                    <figure>
-                        <img class="#" src="./assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
-                        <figcaption>
-                            <dl>
-                                <dt class="accomodation_name">Hôtel tout bleu et Blanc</dt>
-                                <dd class="price">Nuit à partir de 68&euro;</dd>
-                            </dl>
-                            <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span style="color: #d9d9d9;"><i class="fas fa-star"></i></span>
-                        </figcaption>
-                    </figure>
-                </a>
-            </article>
-        </section>
+        <div class="accomodations_in_city display between width100">
+            <section id="#accomodations">
+                <h2>Hébergements à Marseille</h2>
+                <!--Instead of using many <div> for each card, i chose to use figure and figcaption within <a></a> so the whole structure can be clicked on. Inside figcaption, i used <ul> and <li>. The pictures are displayed in html.-->
+                <div class="accomodations_grid center">
+                    <article class="accomodation_card display border-radius-15">
+                        <a class="display center" href="#">
+                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                                <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
+                                <figcaption class="display column whiteback">
+                                    <ul class="room_info display column nolist black between auto-margin">
+                                        <li class="accomodation_name rem1 bold start-align start-justify">Auberge de la Cannebière</li>
+                                        <li class="accomodation_price">Nuit à partir de <strong>25&euro;</strong></li>
+                                    </ul>
+                                    <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                                    <div class="accomodation_stars display blue">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star grey"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="accomodation_card display border-radius-15">
+                        <a class="display center" href="#">
+                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                                <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
+                                <figcaption class="display column whiteback">
+                                    <ul class="room_info display column nolist black between auto-margin">
+                                        <li class="accomodation_name rem1 bold start-align start-justify">Hôtel du port</li>
+                                        <li class="accomodation_price">Nuit à partir de 52<strong>&euro;</strong></li>
+                                    </ul>
+                                    <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                                    <div class="accomodation_stars display blue">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="accomodation_card display border-radius-15">
+                        <a class="display center" href="#">
+                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                                <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
+                                <figcaption class="display column whiteback">
+                                    <ul class="room_info display column nolist black between auto-margin">
+                                        <li class="accomodation_name rem1 bold start-align start-justify">Hôtel Les mouettes </li>
+                                        <li class="accomodation_price">Nuit à partir de 76<strong>&euro;</strong></li>
+                                    </ul>
+                                    <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                                    <div class="accomodation_stars display blue">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star grey"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="accomodation_card display border-radius-15">
+                        <a class="display center" href="#">
+                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                                <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
+                                <figcaption class="display column whiteback">
+                                    <ul class="room_info display column nolist black between auto-margin">
+                                        <li class="accomodation_name rem1 bold start-align start-justify">Hôtel de la mer</li>
+                                        <li class="accomodation_price">Nuit à partir de 46<strong>&euro;</strong></li>
+                                    </ul>
+                                    <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                                    <div class="accomodation_stars display blue">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star grey"></i>
+                                        <i class="fas fa-star grey"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="accomodation_card display border-radius-15">
+                        <a class="display center" href="#">
+                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                                <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
+                                <figcaption class="display column whiteback">
+                                    <ul class="room_info display column nolist black between auto-margin">
+                                        <li class="accomodation_name rem1 bold start-align start-justify">Auberge Le Panier</li>
+                                        <li class="accomodation_price">Nuit à partir de <strong>23&euro;</strong></li>
+                                    </ul>
+                                    <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
+                                    <div class="accomodation_stars display blue">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star grey"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="accomodation_card display border-radius-15">
+                        <a class="display center" href="#">
+                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                                <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
+                                <figcaption class="display column whiteback">
+                                    <ul class="room_info display column nolist black between auto-margin">
+                                        <li class="accomodation_name rem1 bold start-align start-justify">Hôtel chez Amina</li>
+                                        <li class="accomodation_price">Nuit à partir de 96<strong>&euro;</strong></li>
+                                    </ul>
+                                    <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
+                                    <div class="accomodation_stars display blue">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                </div>
+                <a class="display_more display black bold center-justify" href="#">Afficher plus</a>
+            </section>
+            <section id="most_popular">
+                <div class="most_popular_title display greyback between">
+                    <h2 class="width100">Les plus populaires</h2>
+                    <i class="fas fa-chart-line display center-align"></i>
+                </div>
+                <article class="display column">
+                    <a class="popular_card" href="#">
+                        <figure class="popular_picture display whiteback border-radius-15 border-bottom-left-radius15">
+                            <img class="whiteborder cover border-top-left-radius15" src="./assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
+                            <figcaption class="display column whiteback space-around start-align">
+                                <ul class="popular_room_info display column nolist black between start-align">
+                                    <li class="popular_name rem1 bold">Hôtel Le soleil du matin</li>
+                                    <li class="popular_price start-justify">Nuit à partir de 128<strong>&euro;</strong></li>
+                                </ul>
+                                <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
+                                <div class="stars display blue space-around">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+                <article class="display column">
+                    <a class="popular_card" href="#">
+                        <figure class="popular_picture display whiteback border-radius-15 border-bottom-left-radius15">
+                            <img class="whiteborder cover border-top-left-radius15" src="./assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
+                            <figcaption class="display column whiteback space-around start-align">
+                                <ul class="popular_room_info display column nolist black between start-align">
+                                    <li class="popular_name rem1 bold">Au coeur de l'eau Chambres d'hôtes</li>
+                                    <li class="popular_price start-justify">Nuit à partir de 71<strong>&euro;</strong></li>
+                                </ul>
+                                <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
+                                <div class="stars display blue space-around">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star grey"></i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+                <article class="display column">
+                    <a class="popular_card" href="#">
+                        <figure class="popular_picture display whiteback border-radius-15">
+                            <img class="whiteborder cover border-top-left-radius15 border-bottom-left-radius15" src="./assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
+                            <figcaption class="display column whiteback space-around start-align">
+                                <ul class="popular_room_info display column nolist black between start-align">
+                                    <li class="popular_name rem1 bold">Hôtel tout bleu et Blanc</li>
+                                    <li class="popular_price start-justify">Nuit à partir de 68<strong>&euro;</strong></li>
+                                </ul>
+                                <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
+                                <div class="stars display blue space-around">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star grey"></i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+            </section>
+        </div>
         <section id="#activities">
             <h2>Activités à Marseille</h2>
             <article>
                 <a class="#" href="#">
                     <figure>
-                        <img src="./assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" />
+                        <img src="./assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du vieux port" />
                         <figcaption>
                             Vieux Port
                         </figcaption>
@@ -242,7 +264,7 @@
             <article>
                 <a class="#" href="#">
                     <figure>
-                        <img src="./assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" />
+                        <img src="./assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du Fort de Pomègues" />
                         <figcaption>
                             Fort de Pomègues
                         </figcaption>
@@ -252,7 +274,7 @@
             <article>
                 <a class="#" href="#">
                     <figure>
-                        <img src="./assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" />
+                        <img src="./assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photos des îles du Frioul" />
                         <figcaption>
                             Îles du Frioul
                         </figcaption>
@@ -262,7 +284,7 @@
             <article>
                 <a class="#" href="#">
                     <figure>
-                        <img src="./assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" />
+                        <img src="./assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo de Calanques" />
                         <figcaption>
                             Parc National des Calanques
                         </figcaption>
@@ -272,7 +294,7 @@
             <article>
                 <a class="#" href="#">
                     <figure>
-                        <img src="./assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" />
+                        <img src="./assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre-Dame-de-la-Garde" />
                         <figcaption>
                             Notre-Dame-de-la-Garde
                         </figcaption>
@@ -282,7 +304,7 @@
             <article>
                 <a class="#" href="#">
                     <figure>
-                        <img src="./assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" />
+                        <img src="./assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo du Parc Longchamp" />
                         <figcaption>
                             Parc Longchamp
                         </figcaption>
@@ -292,22 +314,22 @@
         </section>
     </main>
 
-    <footer>
-        <nav aria-label="about">
+    <footer class="display greyback auto-margin width100">
+        <nav class="display column" aria-label="about">
             <h3>A propos</h3>
-            <a href="#">Fonctionnement du site</a>
-            <a href="#">Conditions générales de vente</a>
-            <a href="#">Données et confidentialité</a>
+            <a class="hover black" href="#">Fonctionnement du site</a>
+            <a class="hover black" href="#">Conditions générales de vente</a>
+            <a class="hover black" href="#">Données et confidentialité</a>
         </nav>
-        <nav aria-label="our_accomodations">
+        <nav class="display column" aria-label="our_accomodations">
             <h3>Nos hébergements</h3>
-            <a href="#">Charte qualité</a>
-            <a href="#">Soumettre votre hôtel</a>
+            <a class="hover black" href="#">Charte qualité</a>
+            <a class="hover black" href="#">Soumettre votre hôtel</a>
         </nav>
-        <nav aria-label="help">
+        <nav class="display column" aria-label="help">
             <h3>Assistance</h3>
-            <a href="#">Centre d'aide</a>
-            <a href="#">Nous contacter</a>
+            <a class="hover black" href="#">Centre d'aide</a>
+            <a class="hover black" href="#">Nous contacter</a>
         </nav>
     </footer>
 
