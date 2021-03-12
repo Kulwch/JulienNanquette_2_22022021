@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
-/* COMMON RULES  */
+/*
+Author : Julien Nanquette ;
+URL : https://kulwch.github.io/JulienNanquette_2_22022021/
+Description: Mise en forme du site Reservia ;
+Tags : Site, Reservia, Location, Reservation, Vacances, Hébergements ;
+*/
 
-body a,
-p,
-li {
-    font-family: 'Raleway', sans-serif;
-}
+
+/* COMMON STYLE RULES  */
 
 body {
     font-family: 'Raleway', sans-serif;
 }
 
-* a {
+body a {
     text-decoration: none;
 }
 
-a:visited {
+body a:visited {
     text-decoration: none;
 }
+
+
+/* Display rules */
 
 .display {
     display: flex;
@@ -43,6 +48,10 @@ a:visited {
 .center {
     justify-content: center;
     align-items: center;
+}
+
+.nolist {
+    list-style-type: none;
 }
 
 .cover {
@@ -73,6 +82,9 @@ a:visited {
     align-items: center;
 }
 
+
+/* Fonts styles */
+
 .black {
     color: black;
 }
@@ -85,10 +97,6 @@ a:visited {
     color: #d9d9d9;
 }
 
-.nolist {
-    list-style-type: none;
-}
-
 .rem1 {
     font-size: 1rem;
 }
@@ -96,6 +104,9 @@ a:visited {
 .bold {
     font-weight: bold;
 }
+
+
+/* Borders */
 
 .whiteback {
     background-color: white;
@@ -115,7 +126,6 @@ a:visited {
 
 .border-radius-15 {
     border-radius: 15px;
-    ;
 }
 
 .border-top-left-radius15 {
@@ -130,12 +140,11 @@ a:visited {
 /* HEADER */
 
 header {
-    margin-top: -20px;
+    width: 90%;
 }
 
 header #logo {
-    height: 45px;
-    width: 10%;
+    height: 48px;
     padding-top: 70px;
     margin-left: -20px;
 }
@@ -147,7 +156,7 @@ header nav {
 }
 
 header nav ul {
-    height: 111px;
+    height: 150px;
 }
 
 header nav ul li {
@@ -186,6 +195,7 @@ h1 {
 
 .search {
     margin-bottom: 20px;
+    width: 92%;
 }
 
 .search_form {
@@ -197,7 +207,7 @@ h1 {
 }
 
 .fa-map-marker-alt {
-    width: 3.8%;
+    width: 5%;
     height: 50px;
     border-bottom-left-radius: 15px;
 }
@@ -276,7 +286,7 @@ h1 {
 .fa-info {
     height: 20px;
     width: 20px;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     border-radius: 50%;
     border: 1px solid #F2F2F2;
     margin-right: 12px;
@@ -284,7 +294,7 @@ h1 {
 
 .info {
     margin-top: 40px;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 
 
@@ -299,48 +309,45 @@ h1 {
 
 /* ACCOMODATIONS SECTION */
 
-div section:nth-child(1) {
+.accomodations_section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     border: 1px solid #F2F2F2;
     border-radius: 15px;
-    height: 624px;
-    width: 878px;
+    height: 626px;
+    width: 66%;
     background-color: #F2F2F2;
 }
 
-div>section>h2 {
+.accomodations_section h2 {
     display: flex;
     align-self: flex-start;
     padding-left: 5.3%;
     font-size: 1.3rem;
-    margin-bottom: -10px;
 }
 
 .accomodations_grid {
     display: grid;
-    width: 91%;
-    grid-gap: 30px;
-    grid-template-rows: 200px 200px;
-    grid-template-columns: repeat(3, 246px);
+    width: 95%;
+    gap: 30px;
+    grid-template-rows: repeat(2, 25%);
+    grid-template-columns: repeat(3, 30%);
+    margin-top: -15px;
 }
 
 .accomodation_picture {
-    width: 236px;
     height: 188px;
 }
 
 .accomodation_picture img {
     height: 114px;
-    width: 236px;
     border-top-right-radius: 15px;
 }
 
 .accomodation_picture figcaption {
     height: 74px;
-    width: 224px;
     padding-left: 12px;
     justify-content: space-evenly;
     align-content: center;
@@ -354,31 +361,38 @@ div>section>h2 {
 .accomodation_card {
     border: 4px solid white;
     height: 190px;
-    width: 236px;
+    max-width: 30rem;
 }
 
 .accomodation_card a {
     height: 190px;
-    width: 236px;
+    max-width: 30rem;
 }
 
 .room_info {
-    height: 40px;
-    width: 236px;
+    min-width: 15rem;
     padding: unset;
+}
+
+.accomodation_name {
+    width: 14vw;
+    height: 1.4rem;
 }
 
 .accomodation_price {
     font-size: 0.85rem;
+    width: 12vw;
 }
 
 .display_more {
+    font-size: 1rem;
     align-self: flex-start;
     padding-left: 5.3%;
 }
 
 .accomodation_stars {
     font-size: 0.75rem;
+    width: 10vw;
 }
 
 
@@ -386,7 +400,7 @@ div>section>h2 {
 
 div section:nth-child(2) {
     display: flex;
-    width: 420px;
+    width: 31.33%;
     height: 626px;
     border-radius: 15px;
     flex-direction: column;
@@ -401,7 +415,7 @@ div section:nth-child(2) {
     font-size: 0.85rem;
     font-weight: 300;
     padding-left: 11%;
-    margin-top: 30px;
+    margin-top: 10%;
 }
 
 .fa-chart-line {
@@ -421,7 +435,6 @@ div section:nth-child(2) {
 
 .popular_picture figcaption {
     width: 54%;
-    padding-left: -15px;
 }
 
 .popular_room_info {
@@ -433,16 +446,18 @@ div section:nth-child(2) {
 .popular_name {
     height: 15px;
     padding-left: 10%;
+    width: 12vw;
 }
 
 .popular_price {
     height: 15px;
     font-size: 0.9rem;
     padding-left: 10%;
+    width: 12vw;
 }
 
 .stars {
-    width: 40%;
+    width: 10vw;
     align-items: flex-end;
     font-size: 0.7rem;
     padding-left: 10%;

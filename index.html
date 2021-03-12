@@ -8,10 +8,11 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (width: 375px)" href="./assets/css/mobile-style.css" />
 </head>
 
 <body class="width100">
-    <header class="display between auto-margin width93">
+    <header class="display between auto-margin">
         <img id="logo" src="./assets/images/logo/Reservia.svg" alt="Reservia_logo" />
         <nav class="display">
             <ul class="display center-justify">
@@ -25,7 +26,7 @@
 
     <main class="display column width93">
         <!--Font awesome icons are used for each icon to be displayed. Styling is made with CSS rules. -->
-        <section class="search display column auto-margin width93">
+        <section class="search display column auto-margin">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2>En plein centre ville ou en pleine nature</h2>
             <div class="search_form display">
@@ -46,17 +47,17 @@
             <p class="info display center-align"><i class="fas fa-info display center blue"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
         <div class="accomodations_in_city display between width100">
-            <section id="#accomodations">
+            <section id="#accomodations" class="accomodations_section">
                 <h2>Hébergements à Marseille</h2>
                 <!--Instead of using many <div> for each card, i chose to use figure and figcaption within <a></a> so the whole structure can be clicked on. Inside figcaption, i used <ul> and <li>. The pictures are displayed in html.-->
                 <div class="accomodations_grid center">
-                    <article class="accomodation_card display border-radius-15">
-                        <a class="display center" href="#">
-                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                    <article class="accomodation_card display width100 border-radius-15">
+                        <a class="display center width100 whiteback" href="#">
+                            <figure class="accomodation_picture display width100 column whiteborder border-radius-15">
                                 <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
                                 <figcaption class="display column whiteback">
-                                    <ul class="room_info display column nolist black between auto-margin">
-                                        <li class="accomodation_name rem1 bold start-align start-justify">Auberge de la Cannebière</li>
+                                    <ul class="room_info display width100 column nolist black between auto-margin">
+                                        <li class="accomodation_name rem1 bold start-align start-justify">Auberge la Cannebière</li>
                                         <li class="accomodation_price">Nuit à partir de <strong>25&euro;</strong></li>
                                     </ul>
                                     <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
@@ -71,12 +72,12 @@
                             </figure>
                         </a>
                     </article>
-                    <article class="accomodation_card display border-radius-15">
-                        <a class="display center" href="#">
-                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                    <article class="accomodation_card display width100 border-radius-15">
+                        <a class="display center width100 whiteback" href="#">
+                            <figure class="accomodation_picture display width100 column whiteborder border-radius-15">
                                 <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
                                 <figcaption class="display column whiteback">
-                                    <ul class="room_info display column nolist black between auto-margin">
+                                    <ul class="room_info display width100 column nolist black between auto-margin">
                                         <li class="accomodation_name rem1 bold start-align start-justify">Hôtel du port</li>
                                         <li class="accomodation_price">Nuit à partir de 52<strong>&euro;</strong></li>
                                     </ul>
@@ -92,13 +93,13 @@
                             </figure>
                         </a>
                     </article>
-                    <article class="accomodation_card display border-radius-15">
-                        <a class="display center" href="#">
-                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                    <article class="accomodation_card display width100 border-radius-15">
+                        <a class="display center width100 whiteback" href="#">
+                            <figure class="accomodation_picture display width100 column whiteborder border-radius-15">
                                 <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
                                 <figcaption class="display column whiteback">
-                                    <ul class="room_info display column nolist black between auto-margin">
-                                        <li class="accomodation_name rem1 bold start-align start-justify">Hôtel Les mouettes </li>
+                                    <ul class="room_info display width100 column nolist black between auto-margin">
+                                        <li class="accomodation_name bold start-align start-justify">Hôtel Les mouettes </li>
                                         <li class="accomodation_price">Nuit à partir de 76<strong>&euro;</strong></li>
                                     </ul>
                                     <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
@@ -113,13 +114,13 @@
                             </figure>
                         </a>
                     </article>
-                    <article class="accomodation_card display border-radius-15">
-                        <a class="display center" href="#">
-                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                    <article class="accomodation_card display width100 border-radius-15">
+                        <a class="display center width100 whiteback" href="#">
+                            <figure class="accomodation_picture display width100 column whiteborder border-radius-15">
                                 <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
                                 <figcaption class="display column whiteback">
-                                    <ul class="room_info display column nolist black between auto-margin">
-                                        <li class="accomodation_name rem1 bold start-align start-justify">Hôtel de la mer</li>
+                                    <ul class="room_info display width100 column nolist black between auto-margin">
+                                        <li class="accomodation_name bold start-align start-justify">Hôtel de la mer</li>
                                         <li class="accomodation_price">Nuit à partir de 46<strong>&euro;</strong></li>
                                     </ul>
                                     <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
@@ -134,13 +135,13 @@
                             </figure>
                         </a>
                     </article>
-                    <article class="accomodation_card display border-radius-15">
-                        <a class="display center" href="#">
-                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                    <article class="accomodation_card display width100 border-radius-15">
+                        <a class="display center width100 whiteback" href="#">
+                            <figure class="accomodation_picture display width100 column whiteborder border-radius-15">
                                 <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
                                 <figcaption class="display column whiteback">
-                                    <ul class="room_info display column nolist black between auto-margin">
-                                        <li class="accomodation_name rem1 bold start-align start-justify">Auberge Le Panier</li>
+                                    <ul class="room_info display width100 column nolist black between auto-margin">
+                                        <li class="accomodation_name bold start-align start-justify">Auberge Le Panier</li>
                                         <li class="accomodation_price">Nuit à partir de <strong>23&euro;</strong></li>
                                     </ul>
                                     <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star, using a <span> for grey stars. -->
@@ -155,13 +156,13 @@
                             </figure>
                         </a>
                     </article>
-                    <article class="accomodation_card display border-radius-15">
-                        <a class="display center" href="#">
-                            <figure class="accomodation_picture display column whiteborder border-radius-15">
+                    <article class="accomodation_card display width100 border-radius-15">
+                        <a class="display center width100 whiteback" href="#">
+                            <figure class="accomodation_picture display width100 column whiteborder border-radius-15">
                                 <img class="cover border-top-left-radius15" src="./assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
                                 <figcaption class="display column whiteback">
-                                    <ul class="room_info display column nolist black between auto-margin">
-                                        <li class="accomodation_name rem1 bold start-align start-justify">Hôtel chez Amina</li>
+                                    <ul class="room_info display width100 column nolist black between auto-margin">
+                                        <li class="accomodation_name bold start-align start-justify">Hôtel chez Amina</li>
                                         <li class="accomodation_price">Nuit à partir de 96<strong>&euro;</strong></li>
                                     </ul>
                                     <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
@@ -190,7 +191,7 @@
                             <img class="whiteborder cover border-top-left-radius15" src="./assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
                             <figcaption class="display column whiteback space-around start-align">
                                 <ul class="popular_room_info display column nolist black between start-align">
-                                    <li class="popular_name rem1 bold">Hôtel Le soleil du matin</li>
+                                    <li class="popular_name bold">Hôtel Le soleil du matin</li>
                                     <li class="popular_price start-justify">Nuit à partir de 128<strong>&euro;</strong></li>
                                 </ul>
                                 <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
@@ -211,7 +212,7 @@
                             <img class="whiteborder cover border-top-left-radius15" src="./assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
                             <figcaption class="display column whiteback space-around start-align">
                                 <ul class="popular_room_info display column nolist black between start-align">
-                                    <li class="popular_name rem1 bold">Au coeur de l'eau Chambres d'hôtes</li>
+                                    <li class="popular_name bold">Au coeur de l'eau Chambres d'hôtes</li>
                                     <li class="popular_price start-justify">Nuit à partir de 71<strong>&euro;</strong></li>
                                 </ul>
                                 <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
@@ -232,7 +233,7 @@
                             <img class="whiteborder cover border-top-left-radius15 border-bottom-left-radius15" src="./assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo d'une chambre de l'hébergement proposé" />
                             <figcaption class="display column whiteback space-around start-align">
                                 <ul class="popular_room_info display column nolist black between start-align">
-                                    <li class="popular_name rem1 bold">Hôtel tout bleu et Blanc</li>
+                                    <li class="popular_name bold">Hôtel tout bleu et Blanc</li>
                                     <li class="popular_price start-justify">Nuit à partir de 68<strong>&euro;</strong></li>
                                 </ul>
                                 <!--Font awesome icons are used for the stars to be displayed. Basic display is blue star -->
@@ -249,11 +250,11 @@
                 </article>
             </section>
         </div>
-        <section id="#activities">
+        <section id="#activities" class="display column">
             <h2>Activités à Marseille</h2>
             <article>
                 <a class="#" href="#">
-                    <figure>
+                    <figure class="activity_picture">
                         <img src="./assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du vieux port" />
                         <figcaption>
                             Vieux Port
@@ -263,7 +264,7 @@
             </article>
             <article>
                 <a class="#" href="#">
-                    <figure>
+                    <figure class="activity_picture">
                         <img src="./assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du Fort de Pomègues" />
                         <figcaption>
                             Fort de Pomègues
@@ -273,7 +274,7 @@
             </article>
             <article>
                 <a class="#" href="#">
-                    <figure>
+                    <figure class="activity_picture">
                         <img src="./assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photos des îles du Frioul" />
                         <figcaption>
                             Îles du Frioul
@@ -283,7 +284,7 @@
             </article>
             <article>
                 <a class="#" href="#">
-                    <figure>
+                    <figure class="activity_picture">
                         <img src="./assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo de Calanques" />
                         <figcaption>
                             Parc National des Calanques
@@ -293,7 +294,7 @@
             </article>
             <article>
                 <a class="#" href="#">
-                    <figure>
+                    <figure class="activity_picture">
                         <img src="./assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre-Dame-de-la-Garde" />
                         <figcaption>
                             Notre-Dame-de-la-Garde
@@ -303,7 +304,7 @@
             </article>
             <article>
                 <a class="#" href="#">
-                    <figure>
+                    <figure class="activity_picture">
                         <img src="./assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo du Parc Longchamp" />
                         <figcaption>
                             Parc Longchamp
