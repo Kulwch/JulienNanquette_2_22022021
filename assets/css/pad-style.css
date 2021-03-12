@@ -1,17 +1,4 @@
-/* Tablet */
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
-
-/* body */
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-body a {
-    text-decoration: none;
-}
-
 
 /* header */
 
@@ -48,15 +35,7 @@ header nav ul li {
     justify-content: center;
 }
 
-#border {
-    border-top: 1px solid #0065fc;
-}
-
-#black_label {
-    color: black;
-}
-
-#sign_in {
+.sign_in {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -64,10 +43,6 @@ header nav ul li {
     padding-top: 35px;
     width: 100px;
     font-weight: bold;
-}
-
-nav a {
-    color: #0065fc;
 }
 
 
