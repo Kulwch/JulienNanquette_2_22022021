@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+/*
+Author : Julien Nanquette ;
+URL : https://kulwch.github.io/JulienNanquette_2_22022021/
+Description: Mise en forme du site Reservia ;
+Tags : Site, Reservia, Location, Reservation, Vacances, Hébergements ;
+*/
+
+
+/* COMMON STYLE RULES  */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body a:visited {
+    text-decoration: none;
+}
+
+
+/* DISPLAY RULES */
+
+
+/* Alignment, centering... */
+
+.flex {
+    display: flex;
+}
+
+.auto-margin {
+    margin: auto;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.nolist {
+    list-style-type: none;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.start-justify {
+    justify-content: flex-start;
+}
+
+.align-flex-start {
+    align-items: flex-start;
+}
+
+.center-justify {
+    justify-content: center;
+}
+
+.center-align {
+    align-items: center;
+}
+
+.self-align-start {
+    align-self: flex-start;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.center-content {
+    align-content: center;
+}
+
+.padding-left-unset {
+    padding-left: unset;
+}
+
+.padding-left-10 {
+    padding-left: 10%;
+}
+
+
+/* Widths */
+
+.width100 {
+    width: 100%;
+}
+
+.width93 {
+    width: 93%;
+}
+
+
+/* Heights */
+
+.height15 {
+    height: 15px;
+}
+
+.height46 {
+    height: 46px;
+}
+
+.height48 {
+    height: 48px;
+}
+
+.height50 {
+    height: 50px;
+}
+
+.height134 {
+    height: 134px;
+}
+
+
+/*FONTS STYLES */
+
+
+/* Colors */
+
+.black {
+    color: #000000;
+}
+
+.blue {
+    color: #0065fc;
+}
+
+.grey {
+    color: #d9d9d9;
+}
+
+.hover:hover {
+    color: #0065fc;
+}
+
+header nav li a:hover {
+    color: #0065fc;
+}
+
+header nav li a:active {
+    color: #0065fc;
+}
+
+
+/* Sizes */
+
+.font-size-0.7 {
+    font-size: 0.7rem;
+}
+
+.font-size-0.85 {
+    font-size: 0.85rem;
+}
+
+.font-size-0.9 {
+    font-size: 0.9rem;
+}
+
+.font-size-0.95 {
+    font-size: 0.95rem;
+}
+
+.rem1 {
+    font-size: 1rem;
+}
+
+.font-size-1.4 {
+    font-size: 1.4rem;
+}
+
+.font-size-1.5 {
+    font-size: 1.5rem;
+}
+
+
+/* Weights */
+
+.font-weight300 {
+    font-weight: 300;
+}
+
+.normal-font-weight {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*BACKGROUND COLORS */
+
+.whiteback {
+    background-color: #ffffff;
+}
+
+.greyback {
+    background-color: #F2F2F2;
+}
+
+.blueback {
+    background-color: #0065fc;
+}
+
+
+/* BORDERS */
+
+
+/* Colors */
+
+.greyborder {
+    border: 1px solid #F2F2F2;
+}
+
+.whiteborder {
+    border: 1px solid #ffffff;
+}
+
+.blueborder {
+    border: 1px solid #0065fc;
+}
+
+
+/* Border radius */
+
+.border-radius-15 {
+    border-radius: 15px;
+}
+
+.border-top-left-radius15 {
+    border-top-left-radius: 15px;
+}
+
+.border-bottom-left-radius15 {
+    border-bottom-left-radius: 15px;
+}
+
+.border-top-right-radius-15 {
+    border-top-right-radius: 15px;
+}
+
+.border-radius-25 {
+    border-radius: 25px;
+}
+
+
+/* Border styles */
+
+.hidden-border {
+    border-left: hidden;
+}
+
+.border-2px-grey {
+    border: 2px solid #F2F2F2;
+}
+
+.border-4px-white {
+    border: 4px solid #ffffff;
+}
+
+header nav ul li:active {
+    border-top: 1px solid #0065fc;
+}
+
+
+/* MAIN */
+
+
+/* FILTERS*/
+
+.fa-map-marker-alt {
+    width: 5%;
+}
+
+.fa-money-bill-wave,
+.fa-child,
+.fa-heart,
+.fa-dog {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #DEEBFF;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+}
+
+.city::placeholder {
+    opacity: 1;
+}
+
+.city:placeholder-shown {
+    color: black;
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+
+/* ACCOMODATIONS SECTION */
+
+.accomodations_section h2 {
+    padding-left: 5.3%;
+    font-size: 1.3rem;
+}
+
+.picture-height {
+    height: 188px;
+}
+
+.img-height {
+    height: 114px;
+}
+
+.accomodation_stars {
+    height: 20px;
+    align-items: flex-start;
+}
+
+.accomodation_picture figcaption {
+    height: 74px;
+    padding-left: 12px;
+}
+
+.accomodation_card {
+    border: 4px solid #ffffff;
+    height: 190px;
+    max-width: 30rem;
+}
+
+.accomodation_card a {
+    height: 190px;
+    max-width: 30rem;
+}
+
+.room_info {
+    min-width: 15rem;
+    padding: unset;
+}
+
+.accomodation_stars {
+    font-size: 0.75rem;
+    width: 10vw;
+}
+
+.display_more {
+    padding-left: 5.3%;
+}
+
+
+/* MOST POPULAR SECTION */
+
+.popular_picture img {
+    width: 128px;
+    height: 134px;
+}
+
+
+/* ACTIVITIES SECTION  */
+
+.activity_picture img {
+    height: 114px;
+    width: 326px;
+}
+
+.image-width {
+    width: 302px;
+}
+
+
+/* FOOTER */
+
+footer nav a {
+    padding-bottom: 10px;
+}
