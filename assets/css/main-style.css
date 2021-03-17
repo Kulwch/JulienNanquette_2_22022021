@@ -12,14 +12,20 @@ Tags : Site, Reservia, Location, Reservation, Vacances, Hébergements ;
 
 body {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 body a {
     text-decoration: none;
 }
 
-body a:visited {
-    text-decoration: none;
+* a:hover {
+    color: #0065fc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -34,6 +40,10 @@ body a:visited {
 
 .auto-margin {
     margin: auto;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5%;
 }
 
 .column {
@@ -149,7 +159,7 @@ body a:visited {
     color: #d9d9d9;
 }
 
-.hover:hover {
+a:hover {
     color: #0065fc;
 }
 
@@ -164,31 +174,35 @@ header nav li a:active {
 
 /* Sizes */
 
-.font-size-0.7 {
+.font-size-07 {
     font-size: 0.7rem;
 }
 
-.font-size-0.85 {
+.font-size-085 {
     font-size: 0.85rem;
 }
 
-.font-size-0.9 {
+.font-size-09 {
     font-size: 0.9rem;
 }
 
-.font-size-0.95 {
+.font-size-095 {
     font-size: 0.95rem;
 }
 
-.rem1 {
+.font-size-1rem {
     font-size: 1rem;
 }
 
-.font-size-1.4 {
+.font-size-1rem1 {
+    font-size: 1.1rem;
+}
+
+.font-size-1rem4 {
     font-size: 1.4rem;
 }
 
-.font-size-1.5 {
+.font-size-1rem5 {
     font-size: 1.5rem;
 }
 
@@ -240,6 +254,12 @@ header nav li a:active {
     border: 1px solid #0065fc;
 }
 
+.accomodation_picture,
+.popular_picture,
+.activity_picture {
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 10%);
+}
+
 
 /* Border radius */
 
@@ -263,15 +283,22 @@ header nav li a:active {
     border-radius: 25px;
 }
 
+.border-top-radius10 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.border-left-radius10 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
 
 /* Border styles */
 
-.hidden-border {
-    border-left: hidden;
-}
-
 .border-2px-grey {
-    border: 2px solid #F2F2F2;
+    border: 2px solid #d9d9d9;
+    border-left: hidden;
 }
 
 .border-4px-white {
@@ -284,6 +311,13 @@ header nav ul li:active {
 
 
 /* MAIN */
+
+
+/* SEARCH SECTION */
+
+.search {
+    margin: 0% 5% 0% 5%;
+}
 
 
 /* FILTERS*/
@@ -338,18 +372,11 @@ header nav ul li:active {
 
 .accomodation_picture figcaption {
     height: 74px;
-    padding-left: 12px;
+    padding-left: 3.7%;
 }
 
-.accomodation_card {
-    border: 4px solid #ffffff;
-    height: 190px;
-    max-width: 30rem;
-}
-
-.accomodation_card a {
-    height: 190px;
-    max-width: 30rem;
+.accomodation_picture {
+    border: 5px solid #ffffff;
 }
 
 .room_info {
@@ -362,11 +389,7 @@ header nav ul li:active {
     width: 10vw;
 }
 
-.display_more {
-    padding-left: 5.3%;
-}
-
-
+.accomodation_name
 /* MOST POPULAR SECTION */
 
 .popular_picture img {
@@ -374,16 +397,57 @@ header nav ul li:active {
     height: 134px;
 }
 
+.most_popular {
+    padding: 8% 5% 6.2% 5%;
+    margin-top: 6%;
+}
+
+.fa-chart-line {
+    font-size: 1.4rem;
+}
+
+.most_popular_title h2 {
+    height: 24px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.most_popular_title {
+    margin-bottom: 8%;
+}
+
+.stars {
+    padding-bottom: 7.5%;
+}
+
+.popular_picture figcaption {
+    width: 58%;
+}
+
+.popular_room_info {
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+
+.popular_name,
+.popular_price {
+    margin-top: 12px;
+}
+
 
 /* ACTIVITIES SECTION  */
 
 .activity_picture img {
-    height: 114px;
-    width: 326px;
+    width: 324px;
 }
 
-.image-width {
-    width: 302px;
+.activity_picture {
+    border-radius: 15px;
+}
+
+.activities_name {
+    height: 56px;
+    padding-left: 6%;
 }
 
 

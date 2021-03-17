@@ -166,10 +166,8 @@ header nav ul li:hover {
     width: 31.33%;
     height: 626px;
     border-radius: 15px;
-    justify-content: center;
     align-content: center;
     margin-left: 40px;
-    background-color: #F2F2F2;
 }
 
 .most_popular_title {
@@ -177,10 +175,6 @@ header nav ul li:hover {
     font-size: 0.85rem;
     padding-left: 11%;
     margin-top: 10%;
-}
-
-.fa-chart-line {
-    font-size: 1.5rem;
 }
 
 .popular_picture {
