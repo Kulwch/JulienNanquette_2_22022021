@@ -1,13 +1,8 @@
 /* HEADER */
 
-header {
-    width: 90%;
-}
-
 header #logo {
     height: 48px;
     padding-top: 70px;
-    margin-left: -20px;
 }
 
 header nav {
@@ -32,7 +27,7 @@ header nav ul li:hover {
 .sign_in {
     width: 8%;
     height: 143px;
-    padding-top: 4px;
+    margin-top: -12px;
 }
 
 
@@ -44,9 +39,9 @@ header nav ul li:hover {
 }
 
 .search h2 {
+    margin: 5px 0px 5px 0px;
     width: 25%;
     font-size: 0.95rem;
-    margin-top: -10px;
 }
 
 .search {
@@ -64,7 +59,7 @@ header nav ul li:hover {
 
 .city {
     padding-left: 15px;
-    width: 37%;
+    width: 35%;
 }
 
 .search_city {

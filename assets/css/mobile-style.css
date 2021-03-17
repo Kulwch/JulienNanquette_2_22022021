@@ -16,11 +16,10 @@
 /* HEADER */
 
 header {
-    justify-content: space-between;
     flex-wrap: wrap;
     height: 100px;
-    width: 100%;
     padding-top: 20px;
+    margin: 0;
 }
 
 header #logo {

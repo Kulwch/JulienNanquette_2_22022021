@@ -167,7 +167,7 @@ header nav li a:hover {
     color: #0065fc;
 }
 
-header nav li a:active {
+a:active {
     color: #0065fc;
 }
 
@@ -310,6 +310,13 @@ header nav ul li:active {
 }
 
 
+/* HEADER */
+
+header {
+    margin: 0px 5.25% 0px 3.8%;
+}
+
+
 /* MAIN */
 
 
@@ -323,7 +330,7 @@ header nav ul li:active {
 /* FILTERS*/
 
 .fa-map-marker-alt {
-    width: 5%;
+    width: 4%;
 }
 
 .fa-money-bill-wave,
