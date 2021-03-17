@@ -42,8 +42,12 @@ body a {
     margin: auto;
 }
 
-.margin-bottom-5 {
+.margin-mobile {
     margin-bottom: 5%;
+}
+
+.main-margin {
+    margin: 0% 8.5% 8.5% 8.5%;
 }
 
 .column {
@@ -323,7 +327,7 @@ header {
 /* SEARCH SECTION */
 
 .search {
-    margin: 0% 5% 0% 5%;
+    margin: 0% 3.5% 0% 3.5%;
 }
 
 
@@ -359,8 +363,13 @@ header {
 
 /* ACCOMODATIONS SECTION */
 
+.accomodations_in_city {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
 .accomodations_section h2 {
-    padding-left: 5.3%;
+    padding-left: 3.5%;
     font-size: 1.3rem;
 }
 
@@ -399,14 +408,13 @@ header {
 .accomodation_name
 /* MOST POPULAR SECTION */
 
-.popular_picture img {
-    width: 128px;
-    height: 134px;
+.popular_picture {
+    width: 244px;
 }
 
-.most_popular {
-    padding: 8% 5% 6.2% 5%;
-    margin-top: 6%;
+.popular_picture img {
+    width: 126px;
+    height: 134px;
 }
 
 .fa-chart-line {
@@ -423,13 +431,7 @@ header {
     margin-bottom: 8%;
 }
 
-.stars {
-    padding-bottom: 7.5%;
-}
-
-.popular_picture figcaption {
-    width: 58%;
-}
+.stars {}
 
 .popular_room_info {
     margin-bottom: 35px;
@@ -461,5 +463,9 @@ header {
 /* FOOTER */
 
 footer nav a {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+footer nav h3 {
+    padding: 40px 0px 22px 0px;
 }

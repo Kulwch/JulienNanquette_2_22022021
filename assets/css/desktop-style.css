@@ -46,7 +46,6 @@ header nav ul li:hover {
 
 .search {
     margin-bottom: 20px;
-    width: 92%;
 }
 
 .search_form {
@@ -119,8 +118,6 @@ header nav ul li:hover {
 
 .accomodations_in_city {
     height: 626px;
-    margin-left: 3.5%;
-    margin-right: 3.5%;
 }
 
 
@@ -152,6 +149,7 @@ header nav ul li:hover {
 
 .display_more {
     font-size: 1rem;
+    padding-left: 3.5%;
 }
 
 
@@ -159,38 +157,26 @@ header nav ul li:hover {
 
 .most_popular {
     width: 31.33%;
-    height: 626px;
     border-radius: 15px;
     align-content: center;
     margin-left: 40px;
+    padding-top: 40px;
 }
 
 .most_popular_title {
-    width: 80.5%;
     font-size: 0.85rem;
     padding-left: 11%;
-    margin-top: 10%;
+    justify-content: ;
 }
 
-.popular_picture {
-    width: 80.5%;
-}
-
-.popular_picture figcaption {
-    width: 54%;
-}
+.popular_picture figcaption {}
 
 .popular_room_info {
-    width: 90%;
     height: 58px;
 }
 
-.popular_name,
-.popular_price {
-    width: 12vw;
-}
-
 .stars {
+    margin-top: 12px;
     width: 10vw;
     align-items: flex-end;
 }
@@ -274,5 +260,4 @@ footer {
 footer nav {
     width: 25%;
     margin-left: 3.5%;
-    padding-top: 30px;
 }
