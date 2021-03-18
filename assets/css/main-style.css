@@ -12,6 +12,9 @@ Tags : Site, Reservia, Location, Reservation, Vacances, Hébergements ;
 
 body {
     font-family: 'Raleway', sans-serif;
+}
+
+* {
     box-sizing: border-box;
 }
 
@@ -47,7 +50,7 @@ body a {
 }
 
 .main-margin {
-    margin: 0% 8.5% 8.5% 8.5%;
+    margin: 4.25% 8.5% 4.25% 8.5%;
 }
 
 .column {
@@ -271,6 +274,11 @@ a:active {
     border-radius: 15px;
 }
 
+.border-top-radius15 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 .border-top-left-radius15 {
     border-top-left-radius: 15px;
 }
@@ -305,8 +313,8 @@ a:active {
     border-left: hidden;
 }
 
-.border-4px-white {
-    border: 4px solid #ffffff;
+.border-5px-white {
+    border: 5px solid #ffffff;
 }
 
 header nav ul li:active {
@@ -317,7 +325,12 @@ header nav ul li:active {
 /* HEADER */
 
 header {
-    margin: 0px 5.25% 0px 3.8%;
+    margin: 0px 3.8% 0px 3.8%;
+}
+
+header #logo {
+    padding-top: 70px;
+    margin-left: -6px;
 }
 
 
@@ -369,7 +382,7 @@ header {
 }
 
 .accomodations_section h2 {
-    padding-left: 3.5%;
+    padding-left: 3.8%;
     font-size: 1.3rem;
 }
 
@@ -419,6 +432,7 @@ header {
 
 .fa-chart-line {
     font-size: 1.4rem;
+    margin-right: 9%
 }
 
 .most_popular_title h2 {
@@ -428,10 +442,8 @@ header {
 }
 
 .most_popular_title {
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 }
-
-.stars {}
 
 .popular_room_info {
     margin-bottom: 35px;
@@ -446,17 +458,79 @@ header {
 
 /* ACTIVITIES SECTION  */
 
-.activity_picture img {
-    width: 324px;
+.activities_section {
+    margin: 60px 0px 60px 0px;
+}
+
+.activities_section h2 {
+    margin-bottom: 25px;
+    align-self: flex-start;
+    margin-left: 3.5%;
+}
+
+.image-width {
+    width: 302px;
+}
+
+.first_activity img,
+.fourth_activity img {
+    height: 390px;
+    object-fit: ;
+    object-position: ;
+}
+
+.second_activity img {
+    height: 180px;
+}
+
+.third_activity img {
+    height: 108px;
+}
+
+.fifth_activity img {
+    height: 140px;
+}
+
+.sixth_activity img {
+    height: 152px;
+}
+
+.first_activity-height,
+.fourth_activity-height {
+    height: 446px;
+}
+
+.second_activity-height {
+    height: 236px;
+}
+
+.third_activity-height {
+    height: 164px;
+}
+
+.fifth_activity-height {
+    height: 196px;
+}
+
+.sixth_activity-height {
+    height: 210px;
 }
 
 .activity_picture {
     border-radius: 15px;
 }
 
+.activity_picture img {
+    object-fit: cover;
+}
+
 .activities_name {
     height: 56px;
     padding-left: 6%;
+}
+
+.activities_in_city article {
+    margin: 0px 1.1rem 0px 1.1rem;
 }
 
 

@@ -215,6 +215,10 @@ header nav ul li {
 
 /* ACTIVITIES SECTION */
 
+.activity_picture img {
+    width: 324px;
+}
+
 .activities_section {
     margin: 0px 0pc 20px 0px;
 }
