@@ -566,6 +566,10 @@ footer nav a {
     padding-bottom: 15px;
 }
 
+footer nav {
+    margin-left: 3.5%;
+}
+
 footer nav h3 {
     padding: 40px 0px 22px 0px;
 }

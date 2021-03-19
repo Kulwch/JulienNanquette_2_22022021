@@ -275,4 +275,5 @@ footer {
 
 footer nav {
     justify-content: space-between;
+    margin: 0;
 }
