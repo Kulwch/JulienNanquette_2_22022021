@@ -329,7 +329,6 @@ header {
 }
 
 header #logo {
-    padding-top: 70px;
     margin-left: -6px;
 }
 
@@ -371,6 +370,36 @@ header nav ul li {
 
 /* FILTERS*/
 
+.search_form {
+    margin-top: 10px;
+}
+
+.search h2 {
+    margin: 5px 0px 5px 0px;
+    width: 25%;
+    font-size: 0.95rem;
+}
+
+.search_form form {
+    width: 45%;
+}
+
+.city {
+    padding-left: 15px;
+    width: 40%;
+}
+
+.search_city {
+    width: 23%;
+    border-bottom-right-radius: 15px;
+    margin-left: -5px;
+    color: #ffffff;
+}
+
+.fa-search {
+    display: none;
+}
+
 .fa-map-marker-alt {
     width: 4%;
 }
@@ -379,8 +408,8 @@ header nav ul li {
 .fa-child,
 .fa-heart,
 .fa-dog {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     border: 1px solid #DEEBFF;
     border-radius: 50%;
     background-color: #DEEBFF;
@@ -398,6 +427,36 @@ header nav ul li {
     cursor: pointer;
 }
 
+.filters_form {
+    width: 85%;
+    margin-top: 30px;
+}
+
+.filters_form p {
+    width: 30px;
+    margin-right: 3%;
+}
+
+.fa-money-bill-wave,
+.fa-child,
+.fa-heart,
+.fa-dog {
+    margin-right: 10px;
+}
+
+.filters {
+    margin-left: 3%;
+    padding-right: 2%;
+}
+
+.fa-info {
+    height: 25px;
+    width: 25px;
+    font-size: 0.7rem;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
 
 /* ACCOMODATIONS SECTION */
 
@@ -413,7 +472,7 @@ header nav ul li {
 }
 
 .picture-height {
-    height: 188px;
+    height: 200px;
 }
 
 .img-height {
@@ -421,12 +480,13 @@ header nav ul li {
 }
 
 .accomodation_stars {
-    height: 20px;
+    max-height: 20px;
     align-items: flex-start;
 }
 
 .accomodation_picture figcaption {
-    height: 74px;
+    max-height: 100%;
+    min-height: 40%;
     padding-left: 3.7%;
 }
 
@@ -468,7 +528,9 @@ header nav ul li {
 }
 
 .most_popular_title {
-    margin-bottom: 4%;
+    margin-bottom: 1%;
+    margin-top: 12%;
+    padding-left: 9%;
 }
 
 .popular_room_info {
@@ -479,6 +541,11 @@ header nav ul li {
 .popular_name,
 .popular_price {
     margin-top: 12px;
+}
+
+.display_more {
+    font-size: 1rem;
+    padding-left: 3.5%;
 }
 
 

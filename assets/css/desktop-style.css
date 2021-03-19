@@ -2,6 +2,7 @@
 
 header #logo {
     height: 48px;
+    margin-top: 50px;
 }
 
 
@@ -12,53 +13,8 @@ header #logo {
     font-size: 1.3rem;
 }
 
-.search h2 {
-    margin: 5px 0px 5px 0px;
-    width: 25%;
-    font-size: 0.95rem;
-}
-
 .search {
     margin-bottom: 20px;
-}
-
-.search_form {
-    margin-top: 10px;
-}
-
-.search_form form {
-    width: 45%;
-}
-
-.city {
-    padding-left: 15px;
-    width: 35%;
-}
-
-.search_city {
-    width: 23%;
-    border-bottom-right-radius: 15px;
-    margin-left: -5px;
-    color: #ffffff;
-}
-
-.fa-search {
-    display: none;
-}
-
-.filters_form {
-    width: 85%;
-    margin-top: 30px;
-}
-
-.filters_form p {
-    width: 30px;
-    margin-right: 3%;
-}
-
-.filters {
-    margin-left: 3%;
-    padding-right: 2%;
 }
 
 .filters:hover {
@@ -66,21 +22,6 @@ header #logo {
     border-radius: 25px;
     border-left: hidden;
     color: #0065fc;
-}
-
-.fa-money-bill-wave,
-.fa-child,
-.fa-heart,
-.fa-dog {
-    margin-right: 10px;
-}
-
-.fa-info {
-    height: 20px;
-    width: 20px;
-    font-size: 0.7rem;
-    border-radius: 50%;
-    margin-right: 12px;
 }
 
 .info {
@@ -109,23 +50,26 @@ header #logo {
 }
 
 .accomodation_name {
-    width: 14vw;
+    max-width: 100%;
+}
+
+.accomodation_picture {
+    max-width: 248px;
+}
+
+.accomodation_picture img {
+    max-width: 248px;
 }
 
 .accomodation_price {
-    width: 12vw;
-}
-
-.display_more {
-    font-size: 1rem;
-    padding-left: 3.5%;
+    max-width: 12vw;
 }
 
 
 /* MOST POPULAR SECTION */
 
 .most_popular {
-    width: 31.33%;
+    max-width: 31.33%;
     border-radius: 15px;
     align-content: center;
     margin-left: 40px;
@@ -133,8 +77,6 @@ header #logo {
 
 .most_popular_title {
     font-size: 0.85rem;
-    padding-left: 9%;
-    margin-top: 12%;
 }
 
 .popular_room_info {
