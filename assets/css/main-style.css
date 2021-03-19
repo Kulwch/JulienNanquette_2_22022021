@@ -50,7 +50,7 @@ body a {
 }
 
 .main-margin {
-    margin: 4.25% 8.5% 4.25% 8.5%;
+    margin: 4% 8.5% 3% 8.5%;
 }
 
 .column {
@@ -144,8 +144,8 @@ body a {
     height: 50px;
 }
 
-.height134 {
-    height: 134px;
+.height144 {
+    height: 144px;
 }
 
 
@@ -379,6 +379,7 @@ header #logo {
 .accomodations_in_city {
     margin-left: 3.5%;
     margin-right: 3.5%;
+    min-height: 626px;
 }
 
 .accomodations_section h2 {

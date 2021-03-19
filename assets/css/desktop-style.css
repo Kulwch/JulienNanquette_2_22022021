@@ -154,12 +154,12 @@ header nav ul li:hover {
     border-radius: 15px;
     align-content: center;
     margin-left: 40px;
-    padding-top: 4%;
 }
 
 .most_popular_title {
     font-size: 0.85rem;
     padding-left: 9%;
+    margin-top: 12%;
 }
 
 .popular_room_info {
