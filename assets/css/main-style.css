@@ -117,31 +117,15 @@ body a {
 
 /* Widths */
 
-.width100 {
-    width: 100%;
-}
-
-.width93 {
-    width: 93%;
-}
-
 
 /* Heights */
 
-.height15 {
-    height: 15px;
-}
-
-.height46 {
-    height: 46px;
-}
-
-.height48 {
-    height: 48px;
-}
-
 .height50 {
     height: 50px;
+}
+
+.height51 {
+    height: 51px;
 }
 
 .height144 {
@@ -390,7 +374,7 @@ header nav ul li {
 }
 
 .search_city {
-    width: 23%;
+    width: 22%;
     border-bottom-right-radius: 15px;
     margin-left: -5px;
     color: #ffffff;
@@ -433,8 +417,7 @@ header nav ul li {
 }
 
 .filters_form p {
-    width: 30px;
-    margin-right: 3%;
+    margin-right: 32px;
 }
 
 .fa-money-bill-wave,
@@ -445,7 +428,7 @@ header nav ul li {
 }
 
 .filters {
-    margin-left: 3%;
+    margin-right: 3%;
     padding-right: 2%;
 }
 
@@ -534,13 +517,21 @@ header nav ul li {
 }
 
 .popular_room_info {
-    margin-bottom: 35px;
     justify-content: space-between;
 }
 
-.popular_name,
-.popular_price {
+.popular_name {
     margin-top: 12px;
+}
+
+.popular_price {
+    margin-top: 10px;
+}
+
+.stars {
+    margin-top: 40px;
+    width: 10vw;
+    align-items: flex-end;
 }
 
 .display_more {

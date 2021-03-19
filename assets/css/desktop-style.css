@@ -17,6 +17,10 @@ header #logo {
     margin-bottom: 20px;
 }
 
+.filters_form p {
+    margin-left: 0.5%;
+}
+
 .filters:hover {
     border: 2px solid #0065fc;
     border-radius: 25px;
@@ -84,9 +88,7 @@ header #logo {
 }
 
 .stars {
-    margin-top: 12px;
-    width: 10vw;
-    align-items: flex-end;
+    margin-top: 50px;
 }
 
 
