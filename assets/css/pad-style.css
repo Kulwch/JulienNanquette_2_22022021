@@ -1,48 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
-/* header */
-
-header {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    justify-content: space-between;
-    margin-top: -20px;
-}
+/* HEADER */
 
 header #logo {
-    width: 100px;
-    padding-top: 70px;
-}
-
-header nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 55%;
-    margin-left: 150px;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: flex-end;
-}
-
-header nav ul li {
-    display: flex;
-    list-style-type: none;
-    padding-top: 50px;
-    width: 150px;
-    justify-content: center;
-}
-
-.sign_in {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: #0065fc;
-    padding-top: 35px;
-    width: 100px;
-    font-weight: bold;
+    height: 80px;
+    padding-top: 25px;
 }
 
 

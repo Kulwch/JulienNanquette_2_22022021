@@ -4,31 +4,6 @@ header #logo {
     height: 48px;
 }
 
-header nav {
-    justify-content: flex-end;
-    width: 55%;
-    margin-left: 28%;
-}
-
-header nav ul {
-    height: 150px;
-}
-
-header nav ul li {
-    padding-top: 50px;
-    width: 150px;
-}
-
-header nav ul li:hover {
-    border-top: 1px solid #0065fc;
-}
-
-.sign_in {
-    width: 8%;
-    height: 143px;
-    margin-top: -12px;
-}
-
 
 /* SEARCH SECTION */
 
