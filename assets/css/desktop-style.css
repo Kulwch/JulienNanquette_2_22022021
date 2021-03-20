@@ -70,7 +70,7 @@ header #logo {
 /* MOST POPULAR SECTION */
 
 .most_popular {
-    max-width: 31.33%;
+    min-width: 31.33%;
     border-radius: 15px;
     align-content: center;
     margin-left: 40px;
