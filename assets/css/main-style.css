@@ -158,7 +158,7 @@ header nav li a:hover {
     color: #0065fc;
 }
 
-a:active {
+header a:focus {
     color: #0065fc;
 }
 
@@ -305,7 +305,7 @@ a:active {
     border: 5px solid #ffffff;
 }
 
-header nav ul li:active {
+header nav ul li:focus {
     border-top: 1px solid #0065fc;
 }
 
