@@ -254,6 +254,10 @@ a:active {
 
 /* Border radius */
 
+.border-radius10 {
+    border-radius: 10px;
+}
+
 .border-radius-15 {
     border-radius: 15px;
 }
@@ -556,47 +560,28 @@ header nav ul li {
     width: 302px;
 }
 
+.activity_picture img {
+    position: relative;
+}
+
 .first_activity img,
 .fourth_activity img {
-    height: 390px;
-    object-fit: ;
-    object-position: ;
-}
-
-.second_activity img {
-    height: 180px;
-}
-
-.third_activity img {
-    height: 108px;
-}
-
-.fifth_activity img {
-    height: 140px;
-}
-
-.sixth_activity img {
-    height: 152px;
-}
-
-.first_activity-height,
-.fourth_activity-height {
     height: 446px;
 }
 
-.second_activity-height {
+.second_activity img {
     height: 236px;
 }
 
-.third_activity-height {
+.third_activity img {
     height: 164px;
 }
 
-.fifth_activity-height {
+.fifth_activity img {
     height: 196px;
 }
 
-.sixth_activity-height {
+.sixth_activity img {
     height: 210px;
 }
 
@@ -611,6 +596,12 @@ header nav ul li {
 .activities_name {
     height: 56px;
     padding-left: 6%;
+    background-color: #ffffff;
+    margin-top: -56px;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
 }
 
 .activities_in_city article {

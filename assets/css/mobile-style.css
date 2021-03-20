@@ -242,15 +242,6 @@ header nav ul li:hover {
 
 /* ACTIVITIES SECTION */
 
-.first_activity-height,
-.second_activity-height,
-.third_activity-height,
-.fourth_activity-height,
-.fifth_activity-height,
-.sixth_activity-height {
-    height: 190px;
-}
-
 .activity_picture img {
     width: 324px;
 }
@@ -267,7 +258,7 @@ header nav ul li:hover {
 .activity_picture img {
     object-fit: cover;
     object-position: ;
-    height: 134px;
+    height: 190px;
 }
 
 .activities_section h2 {
