@@ -18,7 +18,7 @@ header #logo {
 }
 
 .filters_form p {
-    margin-left: 0.5%;
+    margin-left: 1%;
 }
 
 .filters:hover {
@@ -30,6 +30,7 @@ header #logo {
 
 .info {
     margin-top: 40px;
+    margin-left: 0.5%;
 }
 
 
@@ -40,7 +41,7 @@ header #logo {
 
 .accomodations_section {
     border-radius: 15px;
-    width: 66%;
+    flex-basis: 66%;
     background-color: #F2F2F2;
 }
 
@@ -54,15 +55,11 @@ header #logo {
 }
 
 .accomodation_name {
-    max-width: 100%;
-}
-
-.accomodation_picture {
-    max-width: 248px;
+    flex-basis: 60%;
 }
 
 .accomodation_picture img {
-    max-width: 248px;
+    flex-basis: 40%;
 }
 
 .accomodation_price {
