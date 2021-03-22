@@ -3,7 +3,7 @@
 Project started on february the 22nd, 2021.
 
 The project consists in setting up a website based on a two-versions mockup: mobile and desktop. The website must fit the mockup on mobile and desktop versions, and the design can be modified at will for the pad version, yet the content has to be correctly displayed. The design also has to be responsive, and must be set with efficient breakpoints.
-The icons that have to be used are from font-awesome, et the font is a googlefont, 'Railway'. The links to the ressources are in the link to the project.
+The icons that have to be used are from font-awesome, and the font is a googlefont, 'Railway'. The links to the ressources are in the link to the project.
 Source: https://openclassrooms.com/fr/paths/185/projects/639/assignment
 
 The mockup link is here: https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/Projet+2+-+Reservia+FR.zip
