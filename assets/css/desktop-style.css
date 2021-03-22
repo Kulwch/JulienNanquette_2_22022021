@@ -1,3 +1,8 @@
+a:hover {
+    color: #0065fc;
+}
+
+
 /* HEADER */
 
 header #logo {
@@ -8,13 +13,13 @@ header #logo {
 
 /* SEARCH SECTION */
 
+.search {
+    margin-bottom: 20px;
+}
+
 .search h1 {
     width: 70%;
     font-size: 1.3rem;
-}
-
-.search {
-    margin-bottom: 20px;
 }
 
 .filters_form p {
@@ -54,12 +59,12 @@ header #logo {
     margin-top: -15px;
 }
 
-.accomodation_name {
-    flex-basis: 60%;
-}
-
 .accomodation_picture img {
     flex-basis: 40%;
+}
+
+.accomodation_name {
+    flex-basis: 60%;
 }
 
 .accomodation_price {
@@ -93,8 +98,4 @@ header #logo {
 
 footer {
     padding-bottom: 50px;
-}
-
-footer nav {
-    width: 25%;
 }
