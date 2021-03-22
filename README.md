@@ -8,7 +8,7 @@ Source: https://openclassrooms.com/fr/paths/185/projects/639/assignment
 
 The mockup link is here: https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/Projet+2+-+Reservia+FR.zip
 
-I started the project with the desktop version, then set the mobile one, and finally did the pad version. All the work done is uploaded on the "develop" branch, until the final merge branch on "main" when the project is ready to be released.
+I started the project with the desktop version, then set the mobile one, and finally did the pad version. All the work done is uploaded on the "develop" branch, until the final merge branch on "main" when the project is ready to be released. I used Visual Studio Code for the project.
 
 ![Desktop - 1](https://user-images.githubusercontent.com/76691359/111976544-0715d980-8b02-11eb-87aa-e6bbd49829b2.png)
 ![iPhone 8 - 1](https://user-images.githubusercontent.com/76691359/111976552-09783380-8b02-11eb-8563-0c9c80b2a40b.png)
