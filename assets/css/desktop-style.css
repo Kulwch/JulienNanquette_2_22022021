@@ -1,4 +1,4 @@
-a:hover {
+* a:hover {
     color: #0065fc;
 }
 
@@ -8,6 +8,10 @@ a:hover {
 header #logo {
     height: 48px;
     margin-top: 50px;
+}
+
+header nav ul li a:hover {
+    border-top: 1px solid #0065fc;
 }
 
 
@@ -30,7 +34,6 @@ header #logo {
     border: 2px solid #0065fc;
     border-radius: 25px;
     border-left: hidden;
-    color: #0065fc;
 }
 
 .info {
@@ -46,8 +49,12 @@ header #logo {
 
 .accomodations_section {
     border-radius: 15px;
-    flex-basis: 66%;
+    width: 66%;
     background-color: #F2F2F2;
+}
+
+.accomodations_section h2 {
+    margin: 46px 0px 28px 0px;
 }
 
 .accomodations_grid {
@@ -55,27 +62,23 @@ header #logo {
     width: 95%;
     gap: 30px;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(auto-fill, minmax(246px, 1fr));
     margin-top: -15px;
-}
-
-.accomodation_picture img {
-    flex-basis: 40%;
-}
-
-.accomodation_name {
-    flex-basis: 60%;
 }
 
 .accomodation_price {
     max-width: 12vw;
 }
 
+.display_more {
+    margin-top: 44px;
+}
+
 
 /* MOST POPULAR SECTION */
 
 .most_popular {
-    min-width: 31.33%;
+    width: 31.33%;
     border-radius: 15px;
     align-content: center;
     margin-left: 40px;
