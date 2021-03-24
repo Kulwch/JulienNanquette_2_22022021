@@ -228,91 +228,75 @@ body a {
 .accomodation_picture,
 .popular_picture,
 .activity_picture {
-    box-shadow: 0px 0px 10px 1px #D9D9D9;
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 10%);
 }
 
+;
+
+}
 
 /* Border radius */
-
 .border-radius10 {
     border-radius: 10px;
 }
-
 .border-radius-15 {
     border-radius: 15px;
 }
-
 .border-top-radius15 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
 .border-top-left-radius15 {
     border-top-left-radius: 15px;
 }
-
 .border-bottom-left-radius15 {
     border-bottom-left-radius: 15px;
 }
-
 .border-top-right-radius-15 {
     border-top-right-radius: 15px;
 }
-
 .border-radius-25 {
     border-radius: 25px;
 }
-
 .border-top-radius10 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .border-left-radius10 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-
 /* Border styles */
-
 .border-2px-grey {
     border: 2px solid #d9d9d9;
     border-left: hidden;
 }
-
 .border-5px-white {
     border: 5px solid #ffffff;
 }
 
-
 /* HEADER */
-
 header {
     margin: 0px 3% 0px 3%;
     height: 130px;
 }
-
 header #logo {
     margin-left: -6px;
 }
-
 header nav {
     justify-content: flex-end;
     width: 55%;
     margin-left: 28%;
 }
-
 header nav ul li a {
     width: 164px;
     padding-top: 50px;
 }
-
 header nav ul li a:focus {
     border-top: 1px solid #0065fc;
     color: #0065fc;
 }
-
 .sign_in {
     width: 8%;
     height: 143px;
@@ -320,53 +304,41 @@ header nav ul li a:focus {
     margin-right: 25px;
 }
 
-
 /* MAIN */
 
-
 /* SEARCH SECTION */
-
 .search {
     margin: 0% 3% 0% 3%;
 }
 
-
 /* FILTERS*/
-
 .search_form {
     margin-top: 10px;
 }
-
 .search h2 {
     margin: 5px 0px 5px 0px;
     width: 25%;
     font-size: 0.95rem;
 }
-
 .search_form form {
     width: 45%;
 }
-
 .city {
     padding-left: 15px;
     width: 40%;
 }
-
 .search_city {
     width: 22%;
     border-bottom-right-radius: 15px;
     margin-left: -5px;
     color: #ffffff;
 }
-
 .fa-search {
     display: none;
 }
-
 .fa-map-marker-alt {
     width: 4%;
 }
-
 .fa-money-bill-wave,
 .fa-child,
 .fa-heart,
@@ -377,47 +349,38 @@ header nav ul li a:focus {
     border-radius: 50%;
     background-color: #DEEBFF;
 }
-
 .city::placeholder {
     opacity: 1;
 }
-
 .city:placeholder-shown {
     color: black;
 }
-
 .cursor:hover {
     cursor: pointer;
 }
-
 .filters:focus {
     color: #0065fc;
     border: 2px solid #0065fc;
     border-radius: 25px;
     border-left: hidden;
 }
-
 .filters_form {
     width: 85%;
     margin-top: 30px;
 }
-
 .filters_form p {
     margin-right: 32px;
 }
-
 .fa-money-bill-wave,
 .fa-child,
 .fa-heart,
 .fa-dog {
     margin-right: 10px;
 }
-
 .filters {
     margin-right: 3%;
     padding-right: 2%;
 }
-
 .fa-info {
     height: 25px;
     width: 25px;
@@ -426,156 +389,121 @@ header nav ul li a:focus {
     margin-right: 12px;
 }
 
-
 /* ACCOMODATIONS SECTION */
-
 .accomodations_in_city {
     margin-left: 3%;
     margin-right: 3%;
     min-height: 626px;
 }
-
 .accomodations_section h2 {
     padding-left: 3.8%;
     font-size: 1.3rem;
 }
-
 .img-height {
     height: 114px;
 }
-
 .accomodation_stars {
     max-height: 20px;
     align-items: flex-start;
 }
-
 .accomodation_picture figcaption {
     height: 75px;
     padding-left: 3.7%;
 }
-
 .accomodation_picture {
     border: 5px solid #ffffff;
-    flex-basis: 246px;
 }
-
 .room_info {
     min-width: 15rem;
     padding: unset;
 }
-
 .accomodation_stars {
     font-size: 0.75rem;
     width: 10vw;
 }
 
-
 /* MOST POPULAR SECTION */
-
 .most_popular_title {
     margin-bottom: 1%;
     margin-top: 46px;
     padding-left: 9%;
 }
-
 .most_popular_title h2 {
     height: 24px;
     font-size: 1.3rem;
     font-weight: bold;
 }
-
 .fa-chart-line {
     font-size: 1.4rem;
     margin-right: 9%
 }
-
 .popular_picture {
     max-width: 346px;
     min-width: 286px;
 }
-
 .popular_picture img {
     width: 126px;
     height: 134px;
 }
-
 .popular_room_info {
     justify-content: space-between;
 }
-
 .popular_name {
     margin-top: 12px;
     flex-flow: row wrap;
 }
-
 .popular_price {
     margin-top: 10px;
 }
-
 .stars {
     margin-top: 40px;
     max-width: 100%;
 }
-
 .display_more {
     font-size: 1rem;
     padding-left: 3.5%;
 }
 
-
 /* ACTIVITIES SECTION  */
-
 .activities_section {
     margin: 60px 3% 60px 3%;
 }
-
 .activities_section h2 {
     margin-bottom: 25px;
     align-self: flex-start;
     margin-left: 3%;
 }
-
 .activities_in_city article {
     margin: 0px 1.1rem 0px 1.1rem;
 }
-
 .image-width {
     width: 305px;
 }
-
 .activity_picture {
     border-radius: 15px;
 }
-
 .activity_picture img {
     object-fit: cover;
 }
-
 .activity_picture img {
     position: relative;
 }
-
 .first_activity img,
 .fourth_activity img {
     height: 446px;
 }
-
 .second_activity img {
     height: 236px;
 }
-
 .third_activity img {
     height: 164px;
 }
-
 .fifth_activity img {
     height: 196px;
 }
-
 .sixth_activity img {
     height: 210px;
 }
-
 .activities_name {
     height: 56px;
     padding-left: 6%;
@@ -587,18 +515,14 @@ header nav ul li a:focus {
     z-index: 1;
 }
 
-
 /* FOOTER */
-
 footer nav {
     margin-left: 3%;
     width: 25%;
 }
-
 footer nav a {
     padding-bottom: 15px;
 }
-
 footer nav h3 {
     padding: 40px 0px 22px 0px;
 }
