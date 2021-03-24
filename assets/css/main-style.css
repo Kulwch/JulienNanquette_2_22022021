@@ -105,6 +105,10 @@ body a {
     padding-left: 10%;
 }
 
+.margin-left-10 {
+    margin-left: 10%;
+}
+
 
 /* Heights */
 
@@ -466,22 +470,8 @@ header nav ul li a:focus {
     width: 10vw;
 }
 
-.accomodation_name
+
 /* MOST POPULAR SECTION */
-
-.popular_picture {
-    width: 244px;
-}
-
-.popular_picture img {
-    width: 126px;
-    height: 134px;
-}
-
-.fa-chart-line {
-    font-size: 1.4rem;
-    margin-right: 9%
-}
 
 .most_popular_title {
     margin-bottom: 1%;
@@ -493,6 +483,21 @@ header nav ul li a:focus {
     height: 24px;
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.fa-chart-line {
+    font-size: 1.4rem;
+    margin-right: 9%
+}
+
+.popular_picture {
+    max-width: 346px;
+    min-width: 286px;
+}
+
+.popular_picture img {
+    width: 126px;
+    height: 134px;
 }
 
 .popular_room_info {
@@ -510,8 +515,7 @@ header nav ul li a:focus {
 
 .stars {
     margin-top: 40px;
-    width: 10vw;
-    align-items: flex-end;
+    max-width: 100%;
 }
 
 .display_more {

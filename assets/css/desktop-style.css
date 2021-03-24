@@ -63,7 +63,7 @@ header nav ul li a:hover {
     gap: 30px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(auto-fill, minmax(246px, 1fr));
-    margin-top: -15px;
+    margin-top: -12px;
 }
 
 .accomodation_price {
@@ -78,7 +78,8 @@ header nav ul li a:hover {
 /* MOST POPULAR SECTION */
 
 .most_popular {
-    width: 31.33%;
+    flex-basis: 31.33%;
+    min-width: 328px;
     border-radius: 15px;
     align-content: center;
     margin-left: 40px;
