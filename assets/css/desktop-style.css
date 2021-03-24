@@ -66,6 +66,10 @@ header nav ul li a:hover {
     margin-top: -12px;
 }
 
+.img-height {
+    max-width: 236px;
+}
+
 .accomodation_price {
     max-width: 12vw;
 }
