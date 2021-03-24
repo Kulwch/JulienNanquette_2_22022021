@@ -99,8 +99,15 @@ header #logo {
 
 /* ACCOMODATIONS SECTIONS */
 
-.accomodations {
+.accomodations_section {
     flex-basis: 50%;
+    background-color: #DEEBFF;
+    border-radius: 15px;
+}
+
+.accomodations_grid {
+    display: flex;
+    flex-direction: column;
 }
 
 .accomodations_section h2 {
@@ -143,6 +150,10 @@ header #logo {
     flex-wrap: wrap;
 }
 
+.display_more {
+    margin: 10px 0px 10px 6%;
+}
+
 
 /* MOST POPULAR SECTIONS */
 
@@ -155,8 +166,13 @@ header #logo {
     margin-top: 2%;
 }
 
+.fa-chart-line {
+    margin-right: 15%;
+}
+
 .most_popular article {
-    margin-top: 50px;
+    margin-top: 80px;
+    align-self: center;
 }
 
 .popular_card {
@@ -184,7 +200,7 @@ header #logo {
 
 .activities_in_city {
     display: grid;
-    gap: 60px;
+    gap: 146px;
     grid-template-columns: repeat(2, 302px);
     grid-template-rows: repeat(2, 446px);
     margin-bottom: 4%;
