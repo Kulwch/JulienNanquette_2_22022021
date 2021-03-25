@@ -106,6 +106,10 @@ header nav ul li a:hover {
     flex-flow: row wrap;
 }
 
+.activities_in_city article {
+    margin-top: 10px;
+}
+
 
 /* FOOTER */
 
