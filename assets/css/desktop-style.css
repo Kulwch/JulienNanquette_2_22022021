@@ -71,10 +71,6 @@ header nav ul li a:hover {
     width: 246px;
 }
 
-.accomodation_price {
-    max-width: 12vw;
-}
-
 .display_more {
     margin-top: 44px;
 }
@@ -100,6 +96,14 @@ header nav ul li a:hover {
 
 .stars {
     margin-top: 50px;
+}
+
+
+/* ACTIVITIES SECTION */
+
+.activities_in_city {
+    flex-basis: 100%;
+    flex-flow: row wrap;
 }
 
 

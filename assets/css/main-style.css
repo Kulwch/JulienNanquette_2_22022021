@@ -456,7 +456,7 @@ header nav ul li a:focus {
 
 .room_info {
     min-width: 15rem;
-    padding: unset;
+    padding: 0;
 }
 
 .accomodation_stars {
@@ -530,16 +530,9 @@ header nav ul li a:focus {
     margin-left: 3%;
 }
 
-.activities_in_city article {
-    margin: 0px 1.1rem 0px 1.1rem;
-}
-
-.image-width {
-    width: 305px;
-}
-
 .activity_picture {
     border-radius: 15px;
+    width: 100%;
 }
 
 .activity_picture img {
@@ -548,6 +541,7 @@ header nav ul li a:focus {
 
 .activity_picture img {
     position: relative;
+    width: 301px;
 }
 
 .first_activity img,
