@@ -54,7 +54,7 @@ header nav ul li a:hover {
 }
 
 .accomodations_section h2 {
-    margin: 46px 0px 28px 0px;
+    margin: 46px 0px 28px -5px;
 }
 
 .accomodations_grid {
@@ -64,7 +64,7 @@ header nav ul li a:hover {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(auto-fill, minmax(246px, 1fr));
     margin-top: -12px;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 .accomodation_picture {
