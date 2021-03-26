@@ -15,6 +15,7 @@ I started the project with the desktop version, then set the mobile one, and fin
 
 The html structure for each of the accomodations card is:
 
+```html
 <article>
   <a>
     <figure>
@@ -31,6 +32,7 @@ The html structure for each of the accomodations card is:
     </figure>
   </a>
 </article>
+```
 
 I applied the same html structure on the activities cards minus the <ul> and <div> i didn't need.  
 I tried to use the less possible number of <div> and prefered to use semantic tags when possible.
