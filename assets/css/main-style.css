@@ -459,7 +459,7 @@ header nav ul li a:focus {
 }
 
 .popular_picture {
-    max-width: 346px;
+    flex-basis: 346px;
     min-width: 286px;
 }
 
@@ -470,15 +470,18 @@ header nav ul li a:focus {
 
 .popular_room_info {
     justify-content: space-between;
+    width: 100%;
 }
 
 .popular_name {
     flex-flow: row wrap;
     margin-top: 12px;
+    width: 100%;
 }
 
 .popular_price {
     margin-top: 10px;
+    width: 100%;
 }
 
 .stars {

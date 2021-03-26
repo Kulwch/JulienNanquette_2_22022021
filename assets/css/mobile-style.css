@@ -1,9 +1,12 @@
+/* SPECIFIC RULES APPLYING TO THE MOBILE VERSION */
+
+
 /* MOBILE VERSION */
 
 .mobile-flex {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .mobile-flex-column {
@@ -24,7 +27,7 @@ a:focus {
 }
 
 
-/* HEADER */
+/* <HEADER> */
 
 header {
     flex-wrap: wrap;
@@ -33,24 +36,24 @@ header {
 }
 
 header #logo {
+    order: 1;
+    width: 100px;
     margin-left: 20px;
     padding-top: 26px;
-    width: 100px;
-    order: 1;
 }
 
 header nav {
+    order: 3;
     width: 100%;
     height: 70px;
-    order: 3;
     margin-left: 0;
 }
 
 header nav ul {
-    width: 100%;
     justify-content: space-between;
-    padding-left: unset;
+    width: 100%;
     height: unset;
+    padding-left: unset;
 }
 
 header nav ul li {
@@ -59,64 +62,66 @@ header nav ul li {
 }
 
 header nav ul li a {
-    border-bottom: 2px solid #d9d9d9;
     flex-basis: 100%;
     margin-top: -15px;
+    border-bottom: 2px solid #d9d9d9;
 }
 
 header nav ul li a:focus {
-    border-bottom: 2px solid #0065fc;
     border-top: none;
+    border-bottom: 2px solid #0065fc;
 }
 
 .sign_in {
-    height: 40px;
-    width: 20%;
     align-items: flex-end;
     order: 2;
-    margin-right: 20px;
+    width: 20%;
+    height: 40px;
     margin-top: 20px;
+    margin-right: 20px;
 }
+
+
+/* <MAIN> */
 
 
 /* SEARCH */
 
 .search {
-    margin: 35px 5% 0px 5%;
+    margin: 35px 5% 0 5%;
 }
 
 .search h1 {
-    font-size: 1.4rem;
     margin-top: 40px;
+    font-size: 1.4rem;
 }
 
 .search h2 {
-    font-size: 1rem;
+    width: auto;
     height: 20px;
     padding-top: 15px;
-    width: auto;
+    font-size: 1rem;
 }
 
 .search_form {
     align-items: center;
-    margin-top: 25px;
     width: 100%;
+    margin-top: 25px;
 }
 
 .search_form form {
     display: flex;
-    height: 50px;
     width: 85%;
+    height: 50px;
 }
 
 .fa-map-marker-alt {
     width: 15%;
-    ;
 }
 
 .city {
-    padding-left: 20px;
     width: 78%;
+    padding-left: 20px;
     border-right: hidden;
 }
 
@@ -127,15 +132,15 @@ header nav ul li a:focus {
 .fa-search {
     display: flex;
     width: 18%;
-    border-radius: 25%;
-    color: #ffffff;
     margin-left: -12px;
+    border-radius: 25%;
+    color: #fff;
 }
 
 .filters_form {
-    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
     height: 240px;
     margin-top: 20px;
 }
@@ -145,10 +150,10 @@ header nav ul li a:focus {
 }
 
 .filters {
-    margin-right: 08px;
-    padding-right: 3.82%;
-    margin-left: 0;
     margin-top: 1%;
+    margin-right: 08px;
+    margin-left: 0;
+    padding-right: 3.82%;
 }
 
 .fa-money-bill-wave,
@@ -160,17 +165,17 @@ header nav ul li a:focus {
 }
 
 .fa-info {
-    height: 25px;
     width: 35px;
+    height: 25px;
+    margin-top: -5px;
     border-radius: 50%;
     font-size: 0.8rem;
-    margin-top: -5px;
 }
 
 .info {
-    height: 42px;
-    width: 100%;
     justify-content: center;
+    width: 100%;
+    height: 42px;
     margin-top: 35px;
 }
 
@@ -179,28 +184,52 @@ header nav ul li a:focus {
 
 .most_popular {
     order: 1;
-    padding: 12% 5% 6.2% 5%;
     margin-top: 6%;
+    padding: 12% 5% 6.2% 5%;
 }
 
 .most_popular_title {
     margin: 0;
-    padding: 0;
     margin-bottom: 4%;
+    padding: 0;
 }
 
 .most_popular article {
-    justify-content: center;
     align-items: center;
-    margin-bottom: 0;
+    justify-content: center;
+    margin: 0px 0px 12px 0px;
+}
+
+.popular_card {
+    width: 100%;
+    justify-content: center;
 }
 
 .popular_picture {
-    width: 334px;
+    flex-grow: 2;
 }
 
 .popular_picture img {
     width: 128px;
+    flex-grow: 0.5;
+}
+
+.popular_picture figcaption {
+    flex-basis: 197px;
+}
+
+.stars {
+    margin-top: 20px;
+}
+
+
+/* ACCOMODATIONS SECTION */
+
+.accomodations_section {
+    order: 2;
+    margin: 40px 5.3% 40px 5.3%;
+    background-color: #fff;
+    flex-basis: 336px;
 }
 
 .accomodations_in_city {
@@ -208,32 +237,38 @@ header nav ul li a:focus {
     margin: 0;
 }
 
-
-/* ACCOMODATIONS SECTION */
-
-.accomodations_section {
-    background-color: #ffffff;
-    order: 2;
-    margin: 40px 5.3% 40px 5.3%;
-}
-
 .accomodations_section h2 {
-    padding: 0;
     margin-bottom: 16px;
+    padding: 0;
 }
 
 .accomodations_grid {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #fff;
+    width: 100%;
+}
+
+.accomodation_card {
+    width: 100%;
+}
+
+.accomodation_card a {
+    width: 100%;
 }
 
 .accomodation_picture {
     margin-bottom: 12px;
+    width: 100%;
 }
 
 .accomodation_picture img {
-    width: 326px;
+    width: 100%;
+    height: 114px;
+}
+
+.accomodation_picture figcaption {
+    width: 100%;
 }
 
 .display_more {
@@ -244,7 +279,8 @@ header nav ul li a:focus {
 /* ACTIVITIES SECTION */
 
 .activities_section {
-    margin: 0px 0pc 20px 0px;
+    margin: 0 19px 20px 21px;
+    flex-basis: 334px;
 }
 
 .activities_section h2 {
@@ -252,23 +288,32 @@ header nav ul li a:focus {
     padding-left: 4%;
 }
 
+.activities_in_city {
+    width: 100%;
+}
+
 .activities_in_city article {
-    margin: 0px 0px 24px 0px;
+    margin: 0 0 24px 0;
+    width: 100%;
+}
+
+.activities_card {
+    width: 100%;
 }
 
 .activity_picture {
-    margin-bottom: 22px;
     height: 190px;
+    margin-bottom: 22px;
 }
 
 .activity_picture img {
-    object-fit: cover;
+    width: 100%;
     height: 190px;
-    width: 336px;
+    object-fit: cover;
 }
 
 
-/* FOOTER */
+/* <FOOTER> */
 
 footer {
     flex-direction: column;
@@ -277,9 +322,9 @@ footer {
 
 footer nav {
     justify-content: space-between;
-    margin: 0;
     width: auto;
-    padding: 0px 0px 0px 8%;
+    margin: 0;
+    padding: 0 0 0 8%;
 }
 
 footer nav:last-child {
