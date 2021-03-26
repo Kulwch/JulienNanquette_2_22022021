@@ -24,7 +24,6 @@ body a {
 
 .nolist {
     list-style-type: none;
-    /* Removing <ul> style type when in nav or not needed */
 }
 
 
@@ -475,13 +474,13 @@ header nav ul li a:focus {
 
 .popular_name {
     flex-flow: row wrap;
-    margin-top: 12px;
     width: 100%;
+    margin-top: 12px;
 }
 
 .popular_price {
-    margin-top: 10px;
     width: 100%;
+    margin-top: 10px;
 }
 
 .stars {
