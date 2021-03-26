@@ -73,10 +73,6 @@ header nav ul li a:hover {
     grid-template-columns: repeat(auto-fill, minmax(246px, 1fr));
 }
 
-.accomodation_picture {
-    width: 246px;
-}
-
 .display_more {
     margin-top: 44px;
 }

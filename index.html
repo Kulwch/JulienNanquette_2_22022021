@@ -12,14 +12,13 @@
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 767px)" href="assets/css/mobile-style.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 991px)" href="assets/css/pad-style.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-width:992px)" href="assets/css/desktop-style.css" />
-
-
 </head>
 
 <body class="flex column">
     <header class="flex between">
         <img id="logo" src="./assets/images/logo/Reservia.svg" alt="Reservia_logo" />
         <nav aria-label="navigation menu" class="flex">
+            <!--Navigation menu-->
             <ul class="flex center-justify">
                 <li class="flex nolist font-size-1rem start-align center-justify"><a class="flex black center-justify" href="index.html#accomodations">Hébergements</a></li>
                 <li class="flex nolist font-size-1rem start-align center-justify"><a class="flex black center-justify" href="index.html#activities">Activités</a></li>
@@ -31,6 +30,7 @@
 
     <main class="flex column">
         <section class="search flex column">
+            <!-- Search section-->
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2 class="normal-font-weight">En plein centre ville ou en pleine nature</h2>
             <div class="search_form flex">
@@ -42,6 +42,7 @@
                 </form>
             </div>
             <form class="filters_form flex center-align" action='#' method="post">
+                <!-- Filters-->
                 <p class="flex font-size-1rem bold">Filtres</p>
                 <a class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-3rd" href="#"><i class="fas fa-money-bill-wave flex center blue"></i>&Eacute;conomique</a>
                 <a class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-1st" href="#"><i class="fas fa-child flex center blue"></i>Familial</a>
@@ -51,7 +52,9 @@
             <p class="info flex center-align font-size-1rem"><i class="fas fa-info flex center blue greyborder"></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
         <div class="accomodations_in_city flex between">
+            <!-- Accomodations part-->
             <section id="#accomodations" class="accomodations_section flex column center-align">
+                <!-- Accomodations in city section-->
                 <h2 class="flex self-align-start">Hébergements à Marseille</h2>
                 <div class="accomodations_grid center">
                     <article class="accomodation_card flex border-radius-15">
@@ -181,6 +184,7 @@
                 <a class="display_more flex black bold center-justify self-align-start hover" href="#">Afficher plus</a>
             </section>
             <section class="most_popular flex column greyback">
+                <!-- Most popular section-->
                 <div class="most_popular_title flex greyback between font-weight300">
                     <h2>Les plus populaires</h2>
                     <i class="fas fa-chart-line flex center"></i>
@@ -250,13 +254,14 @@
             </section>
         </div>
         <section id="#activities" class="activities_section flex column">
+            <!-- Activities section-->
             <h2 class="flex start-justify">Activités à Marseille</h2>
             <div class="activities_in_city flex between mobile-flex-column">
                 <div class="first_column column-width">
                     <article class="first_activity first_activity-height flex mobile-flex">
                         <a class="activities_card first_activity-height flex" href="#">
                             <figure class="activity_picture first_activity-height flex column">
-                                <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du vieux port" />
+                                <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du Vieux Port de Marseille" />
                                 <figcaption class="activities_name flex center-align black bold">
                                     Vieux Port
                                 </figcaption>
@@ -325,6 +330,7 @@
     </main>
 
     <footer class="flex greyback">
+        <!-- Footer-->
         <nav class="flex column" aria-label="about">
             <h3>A propos</h3>
             <a class="hover black" href="#">Fonctionnement du site</a>
