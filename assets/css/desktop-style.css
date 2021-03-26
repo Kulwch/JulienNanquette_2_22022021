@@ -1,9 +1,11 @@
+/* SPECIFIC RULES APPLYING TO THE DESKTOP VERSION */
+
 * a:hover {
     color: #0065fc;
 }
 
 
-/* HEADER */
+/* <HEADER> */
 
 header #logo {
     height: 48px;
@@ -13,6 +15,9 @@ header #logo {
 header nav ul li a:hover {
     border-top: 1px solid #0065fc;
 }
+
+
+/* <MAIN> */
 
 
 /* SEARCH SECTION */
@@ -32,8 +37,8 @@ header nav ul li a:hover {
 
 .filters:hover {
     border: 2px solid #0065fc;
-    border-radius: 25px;
     border-left: hidden;
+    border-radius: 25px;
 }
 
 .info {
@@ -48,23 +53,24 @@ header nav ul li a:hover {
 /* ACCOMODATIONS SECTION */
 
 .accomodations_section {
-    border-radius: 15px;
     width: 66%;
+    border-radius: 15px;
     background-color: #F2F2F2;
 }
 
 .accomodations_section h2 {
-    margin: 46px 0px 28px -5px;
+    margin: 46px 0 28px -5px;
 }
 
 .accomodations_grid {
+    /* The cards are displayed using a Grid in desktop version */
     display: grid;
     width: 95%;
+    margin-top: -12px;
+    margin-left: 1%;
     gap: 30px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(auto-fill, minmax(246px, 1fr));
-    margin-top: -12px;
-    margin-left: 1%;
 }
 
 .accomodation_picture {
@@ -80,10 +86,10 @@ header nav ul li a:hover {
 
 .most_popular {
     flex-basis: 31.33%;
-    min-width: 328px;
-    border-radius: 15px;
     align-content: center;
     margin-left: 40px;
+    min-width: 328px;
+    border-radius: 15px;
 }
 
 .most_popular_title {
@@ -111,7 +117,7 @@ header nav ul li a:hover {
 }
 
 
-/* FOOTER */
+/* <FOOTER> */
 
 footer {
     padding-bottom: 50px;

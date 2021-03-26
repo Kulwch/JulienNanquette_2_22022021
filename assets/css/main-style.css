@@ -24,6 +24,7 @@ body a {
 
 .nolist {
     list-style-type: none;
+    /* Removing <ul> style type when in nav or not needed */
 }
 
 
