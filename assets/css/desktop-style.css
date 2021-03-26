@@ -1,0 +1,120 @@
+/* SPECIFIC RULES APPLYING TO THE DESKTOP VERSION */
+
+* a:hover {
+    color: #0065fc;
+}
+
+
+/* <HEADER> */
+
+header #logo {
+    height: 48px;
+    margin-top: 50px;
+}
+
+header nav ul li a:hover {
+    border-top: 1px solid #0065fc;
+}
+
+
+/* <MAIN> */
+
+
+/* SEARCH SECTION */
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search h1 {
+    width: 70%;
+    font-size: 1.3rem;
+}
+
+.filters_form p {
+    margin-left: 1%;
+}
+
+.filters:hover {
+    border: 2px solid #0065fc;
+    border-left: hidden;
+    border-radius: 25px;
+}
+
+.info {
+    margin-top: 40px;
+    margin-left: 0.5%;
+}
+
+
+/* DIV ACCOMODATIONS IN CITY */
+
+
+/* ACCOMODATIONS SECTION */
+
+.accomodations_section {
+    width: 66%;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+
+.accomodations_section h2 {
+    margin: 46px 0 28px -5px;
+}
+
+.accomodations_grid {
+    /* The cards are displayed using a Grid in desktop version */
+    display: grid;
+    width: 95%;
+    margin-top: -12px;
+    margin-left: 1%;
+    gap: 30px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(246px, 1fr));
+}
+
+.display_more {
+    margin-top: 44px;
+}
+
+
+/* MOST POPULAR SECTION */
+
+.most_popular {
+    flex-basis: 31.33%;
+    align-content: center;
+    margin-left: 40px;
+    min-width: 328px;
+    border-radius: 15px;
+}
+
+.most_popular_title {
+    font-size: 0.85rem;
+}
+
+.popular_room_info {
+    height: 58px;
+}
+
+.stars {
+    margin-top: 50px;
+}
+
+
+/* ACTIVITIES SECTION */
+
+.activities_in_city {
+    flex-basis: 100%;
+    flex-flow: row wrap;
+}
+
+.activities_in_city article {
+    margin-top: 10px;
+}
+
+
+/* <FOOTER> */
+
+footer {
+    padding-bottom: 50px;
+}
