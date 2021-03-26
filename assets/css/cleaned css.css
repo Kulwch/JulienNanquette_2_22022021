@@ -22,18 +22,26 @@ body a {
     text-decoration: none;
 }
 
-.nolist {
-    list-style-type: none;
-}
-
 
 /* DISPLAY RULES */
 
 
-/* Alignments, centering... */
+/* Alignment, centering... */
 
 .flex {
     display: flex;
+}
+
+.auto-margin {
+    margin: auto;
+}
+
+.margin-mobile {
+    margin-bottom: 5%;
+}
+
+.main-margin {
+    margin: 4% 8.5% 3% 8.5%;
 }
 
 .column {
@@ -43,6 +51,10 @@ body a {
 .center {
     align-items: center;
     justify-content: center;
+}
+
+.nolist {
+    list-style-type: none;
 }
 
 .cover {
@@ -85,22 +97,16 @@ body a {
     align-content: center;
 }
 
-
-/* Margins */
-
-.margin-left-10 {
-    margin-left: 10%;
-}
-
-
-/* Paddings */
-
 .padding-left-unset {
     padding-left: unset;
 }
 
 .padding-left-10 {
     padding-left: 10%;
+}
+
+.margin-left-10 {
+    margin-left: 10%;
 }
 
 
@@ -112,6 +118,10 @@ body a {
 
 .height51 {
     height: 51px;
+}
+
+.height144 {
+    height: 144px;
 }
 
 
@@ -147,8 +157,24 @@ body a {
     font-size: 0.9rem;
 }
 
+.font-size-095 {
+    font-size: 0.95rem;
+}
+
 .font-size-1rem {
     font-size: 1rem;
+}
+
+.font-size-1rem1 {
+    font-size: 1.1rem;
+}
+
+.font-size-1rem4 {
+    font-size: 1.4rem;
+}
+
+.font-size-1rem5 {
+    font-size: 1.5rem;
 }
 
 
@@ -199,9 +225,6 @@ body a {
     border: 1px solid #0065fc;
 }
 
-
-/* Shadows */
-
 .accomodation_picture,
 .popular_picture,
 .activity_picture {
@@ -217,6 +240,11 @@ body a {
 
 .border-radius-15 {
     border-radius: 15px;
+}
+
+.border-top-radius15 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .border-top-left-radius15 {
@@ -258,7 +286,7 @@ body a {
 }
 
 
-/* <HEADER> */
+/* HEADER */
 
 header {
     height: 130px;
@@ -289,7 +317,7 @@ header nav ul li a:focus {
 }
 
 
-/* <MAIN> */
+/* MAIN */
 
 
 /* SEARCH SECTION */
@@ -299,7 +327,7 @@ header nav ul li a:focus {
 }
 
 
-/* FILTERS */
+/* FILTERS*/
 
 .search_form {
     margin-top: 10px;
@@ -436,10 +464,6 @@ header nav ul li a:focus {
 
 /* MOST POPULAR SECTION */
 
-.main-margin {
-    margin: 4% 8.5% 3% 8.5%;
-}
-
 .most_popular_title {
     margin-top: 46px;
     margin-bottom: 1%;
@@ -549,7 +573,7 @@ header nav ul li a:focus {
 }
 
 
-/* <FOOTER> */
+/* FOOTER */
 
 footer nav {
     width: 25%;

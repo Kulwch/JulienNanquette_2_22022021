@@ -179,7 +179,7 @@ header nav ul li a:focus {
 
 .most_popular {
     order: 1;
-    padding: 8% 5% 6.2% 5%;
+    padding: 12% 5% 6.2% 5%;
     margin-top: 6%;
 }
 
@@ -192,6 +192,7 @@ header nav ul li a:focus {
 .most_popular article {
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .popular_picture {
