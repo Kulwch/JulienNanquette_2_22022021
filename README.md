@@ -30,7 +30,7 @@ The html structure for each of the accomodations card is:
 ```
 
 I applied the same html structure on the activities cards minus the ``` <ul> ```and ``` <div> ``` i didn't need.  
-I tried to use the less possible number of <div> and prefered to use semantic tags when possible.
+I tried to use the less possible number of ```<div>``` and prefered to use semantic tags when possible.
 The image loading is set to lazy, to gain speed.
   
  I started the project with the desktop version, then set the mobile one, and finally did the pad version. All the work done is uploaded on the "develop" branch, until the final merge branch on "main" when the project is ready to be released. I used Visual Studio Code for the project.
