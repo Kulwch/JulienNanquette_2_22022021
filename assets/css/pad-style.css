@@ -1,4 +1,7 @@
-/* HEADER */
+/* SPECIFIC RULES FOR THE PAD VERSION */
+
+
+/* <HEADER> */
 
 header {
     overflow-x: visible;
@@ -6,8 +9,8 @@ header {
 
 header #logo {
     height: 80px;
-    padding-top: 25px;
     margin-left: 0;
+    padding-top: 25px;
 }
 
 .sign_in {
@@ -23,8 +26,8 @@ header #logo {
 }
 
 .search_form {
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .fa-map-marker-alt {
@@ -42,16 +45,17 @@ header #logo {
 .fa-search {
     display: flex;
     width: 18%;
-    border-radius: 25%;
-    color: #ffffff;
     margin-left: -12px;
+    border-radius: 25%;
+    color: #fff;
 }
 
 .filters_form {
+    /* The filters are displayed with a Grid in the pad version */
+    display: grid;
+    width: auto;
     margin-top: 0;
     margin-left: 5%;
-    width: auto;
-    display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -64,9 +68,9 @@ header #logo {
 }
 
 .filters {
+    width: 220px;
     margin-right: 3%;
     margin-bottom: 2%;
-    width: 220px;
 }
 
 .pad-1st {
@@ -101,11 +105,12 @@ header #logo {
 
 .accomodations_section {
     flex-basis: 50%;
-    background-color: #DEEBFF;
     border-radius: 15px;
+    background-color: #DEEBFF;
 }
 
 .accomodations_grid {
+    /* Cards are displayed with Flexbox in pad version */
     display: flex;
     flex-direction: column;
 }
@@ -126,32 +131,32 @@ header #logo {
 }
 
 .accomodation_picture img {
-    min-width: 126px;
     height: 134px;
+    min-width: 126px;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
     border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
 }
 
 .accomodation_picture figcaption {
-    max-width: 190px;
     height: 134px;
+    max-width: 190px;
 }
 
 .room_info {
-    margin-bottom: 35px;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .accomodation_name,
 .accomodation_price {
+    flex-wrap: wrap;
     margin-top: 12px;
     max-width: 65%;
-    flex-wrap: wrap;
 }
 
 .display_more {
-    margin: 10px 0px 10px 6%;
+    margin: 10px 0 10px 6%;
 }
 
 
@@ -171,8 +176,8 @@ header #logo {
 }
 
 .most_popular article {
-    margin-top: 80px;
     align-self: center;
+    margin-top: 80px;
 }
 
 .popular_card {
@@ -188,28 +193,29 @@ header #logo {
 
 .activities_section {
     margin: 60px 3.5% 60px 3.5%;
+    min-width: 716px;
     border-radius: 15px;
     box-shadow: 0 0 10px 1px #d9d9d9;
-    min-width: 716px;
 }
 
 .activities_section h2 {
     align-self: center;
-    margin-left: 0;
     margin-top: 2%;
+    margin-left: 0;
 }
 
 .activities_in_city {
+    /* Activities are displayed with a Grid on the pad version */
     display: grid;
+    margin: 0% 8% 4% 8%;
     gap: 2%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 446px);
-    margin: 0% 8% 4% 8%;
 }
 
 .activities_in_city article {
-    margin: 0;
     justify-content: center;
+    margin: 0;
 }
 
 .third_column {
@@ -217,7 +223,7 @@ header #logo {
 }
 
 
-/* FOOTER */
+/* <FOOTER> */
 
 footer nav {
     width: 30%;
