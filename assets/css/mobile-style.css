@@ -32,13 +32,13 @@ a:focus {
 header {
     flex-wrap: wrap;
     height: 120px;
-    margin: 0;
+    padding: 0;
 }
 
 header #logo {
     order: 1;
     width: 100px;
-    margin-left: 20px;
+    margin-left: 5.3%;
     padding-top: 26px;
 }
 
@@ -67,6 +67,10 @@ header nav ul li a {
     border-bottom: 2px solid #d9d9d9;
 }
 
+header nav ul li:first-child a {
+    padding-left: 3px;
+}
+
 header nav ul li a:focus {
     border-top: none;
     border-bottom: 2px solid #0065fc;
@@ -77,8 +81,8 @@ header nav ul li a:focus {
     order: 2;
     width: 20%;
     height: 40px;
-    margin-top: 20px;
     margin-right: 20px;
+    padding-top: 60px;
 }
 
 
@@ -197,12 +201,12 @@ header nav ul li a:focus {
 .most_popular article {
     align-items: center;
     justify-content: center;
-    margin: 0px 0px 12px 0px;
+    margin: 0 0 12px 0;
 }
 
 .popular_card {
-    width: 100%;
     justify-content: center;
+    width: 100%;
 }
 
 .popular_picture {
@@ -210,8 +214,8 @@ header nav ul li a:focus {
 }
 
 .popular_picture img {
-    width: 128px;
     flex-grow: 0.5;
+    width: 128px;
 }
 
 .popular_picture figcaption {
@@ -226,10 +230,10 @@ header nav ul li a:focus {
 /* ACCOMODATIONS SECTION */
 
 .accomodations_section {
+    flex-basis: 336px;
     order: 2;
     margin: 40px 5.3% 40px 5.3%;
     background-color: #fff;
-    flex-basis: 336px;
 }
 
 .accomodations_in_city {
@@ -245,8 +249,8 @@ header nav ul li a:focus {
 .accomodations_grid {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
     width: 100%;
+    background-color: #fff;
 }
 
 .accomodation_card {
@@ -258,8 +262,8 @@ header nav ul li a:focus {
 }
 
 .accomodation_picture {
-    margin-bottom: 12px;
     width: 100%;
+    margin-bottom: 12px;
 }
 
 .accomodation_picture img {
@@ -279,8 +283,8 @@ header nav ul li a:focus {
 /* ACTIVITIES SECTION */
 
 .activities_section {
-    margin: 0 19px 20px 21px;
     flex-basis: 334px;
+    margin: 0 19px 20px 21px;
 }
 
 .activities_section h2 {
@@ -297,8 +301,8 @@ header nav ul li a:focus {
 }
 
 .activities_in_city article {
-    margin: 0 0 24px 0;
     width: 100%;
+    margin: 0 0 24px 0;
 }
 
 .activities_card {

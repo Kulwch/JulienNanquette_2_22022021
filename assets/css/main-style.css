@@ -30,7 +30,7 @@ body a {
 /* DISPLAY RULES */
 
 
-/* Alignments, centering... */
+/* Alignments, centering, positions... */
 
 .flex {
     display: flex;
@@ -61,10 +61,6 @@ body a {
     justify-content: flex-start;
 }
 
-.align-flex-start {
-    align-items: flex-start;
-}
-
 .center-justify {
     justify-content: center;
 }
@@ -83,6 +79,10 @@ body a {
 
 .center-content {
     align-content: center;
+}
+
+.relative-position {
+    position: relative;
 }
 
 
@@ -262,7 +262,7 @@ body a {
 
 header {
     height: 130px;
-    margin: 0 3.5% 0 3.5%;
+    padding: 0 3.5% 0 3.5%;
 }
 
 header nav {
@@ -283,9 +283,7 @@ header nav ul li a:focus {
 
 .sign_in {
     width: 8%;
-    height: 143px;
-    margin-top: -12px;
-    padding-right: 10px;
+    padding-bottom: 12px;
 }
 
 
@@ -397,7 +395,6 @@ header nav ul li a:focus {
 .accomodations_in_city {
     margin-right: 3.5%;
     margin-left: 3.5%;
-    min-height: 626px;
 }
 
 .accomodations_section h2 {
@@ -406,8 +403,8 @@ header nav ul li a:focus {
 }
 
 .img-height {
-    height: 114px;
     width: 100%;
+    height: 114px;
 }
 
 .accomodation_card a {
@@ -415,42 +412,44 @@ header nav ul li a:focus {
 }
 
 .accomodation_picture {
-    border: 5px solid #fff;
     width: 100%;
+    border: 5px solid #fff;
 }
 
 .accomodation_picture figcaption {
+    width: 100%;
     height: 75px;
     padding-left: 3.7%;
 }
 
 .room_info {
     padding: 0;
-    min-width: 15rem;
+    max-width: 15rem;
+}
+
+.accomodation_name {
+    width: 100%;
 }
 
 .accomodation_stars {
-    width: 10vw;
-    font-size: 0.75rem;
     align-items: flex-start;
-    max-height: 20px;
+    font-size: 0.75rem;
 }
 
 .display_more {
     padding-left: 3.5%;
-    font-size: 1rem;
 }
 
 
 /* MOST POPULAR SECTION */
 
 .main-margin {
-    margin: 4% 8.5% 3% 8.5%;
+    margin: 4% 8.5% 3% 6.5%;
 }
 
 .most_popular_title {
     margin-top: 46px;
-    margin-bottom: 1%;
+    padding-bottom: 1%;
     padding-left: 9%;
 }
 
@@ -461,12 +460,12 @@ header nav ul li a:focus {
 }
 
 .fa-chart-line {
-    margin-right: 9%;
+    padding-right: 9%;
     font-size: 1.4rem;
 }
 
 .popular_picture {
-    flex-basis: 346px;
+    flex-basis: 100%;
     min-width: 286px;
 }
 
@@ -481,7 +480,6 @@ header nav ul li a:focus {
 }
 
 .popular_name {
-    flex-flow: row wrap;
     width: 100%;
     margin-top: 12px;
 }
@@ -519,14 +517,6 @@ header nav ul li a:focus {
     border-radius: 15px;
 }
 
-.activity_picture img {
-    object-fit: cover;
-}
-
-.activity_picture img {
-    position: relative;
-}
-
 .first_activity img,
 .fourth_activity img {
     height: 446px;
@@ -561,6 +551,7 @@ header nav ul li a:focus {
 
 .activities_name h3 {
     padding-top: 15px;
+    margin-left: -7px;
 }
 
 
@@ -569,7 +560,7 @@ header nav ul li a:focus {
 footer nav {
     width: 25%;
     margin-right: 3%;
-    margin-left: 3%;
+    margin-left: 3.5%;
 }
 
 footer nav a {

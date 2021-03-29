@@ -8,8 +8,7 @@
 /* <HEADER> */
 
 header #logo {
-    height: 48px;
-    margin-top: 50px;
+    width: 100px;
 }
 
 header nav ul li a:hover {
@@ -43,7 +42,7 @@ header nav ul li a:hover {
 
 .info {
     margin-top: 40px;
-    margin-left: 0.5%;
+    padding-left: 0.5%;
 }
 
 
@@ -54,16 +53,16 @@ header nav ul li a:hover {
 
 .accomodations_section {
     width: 66%;
+    min-width: 600px;
     border-radius: 15px;
     background-color: #f2f2f2;
 }
 
 .accomodations_section h2 {
-    margin: 46px 0 28px 5px;
+    padding: 46px 0 28px 3.8%;
 }
 
 .accomodations_grid {
-    /* The cards are displayed using a Grid in desktop version */
     display: grid;
     width: 95%;
     margin-top: -12px;
@@ -73,7 +72,7 @@ header nav ul li a:hover {
 }
 
 .display_more {
-    margin: 44px 0px 0px 5px;
+    padding: 44px 0 46px 3.8%;
 }
 
 
@@ -82,7 +81,7 @@ header nav ul li a:hover {
 .most_popular {
     flex-basis: 31.33%;
     align-content: center;
-    margin-left: 40px;
+    margin-left: 3%;
     min-width: 328px;
     border-radius: 15px;
 }
