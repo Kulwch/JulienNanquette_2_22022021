@@ -292,6 +292,10 @@ header nav ul li a:focus {
     width: 100%;
 }
 
+.column-width {
+    width: auto;
+}
+
 .activities_in_city article {
     margin: 0 0 24px 0;
     width: 100%;

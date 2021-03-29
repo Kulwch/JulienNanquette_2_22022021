@@ -55,7 +55,7 @@ header nav ul li a:hover {
 .accomodations_section {
     width: 66%;
     border-radius: 15px;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
 }
 
 .accomodations_section h2 {
@@ -92,6 +92,14 @@ header nav ul li a:hover {
     font-size: 0.85rem;
 }
 
+.popular_price {
+    margin-top: -25px;
+}
+
+.stars {
+    margin-bottom: 10px;
+}
+
 
 /* ACTIVITIES SECTION */
 
@@ -101,6 +109,10 @@ header nav ul li a:hover {
 
 .activities_in_city article {
     margin-top: 10px;
+}
+
+.column-width {
+    width: 22.5%;
 }
 
 

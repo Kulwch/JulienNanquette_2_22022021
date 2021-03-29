@@ -436,6 +436,11 @@ header nav ul li a:focus {
     max-height: 20px;
 }
 
+.display_more {
+    padding-left: 3.5%;
+    font-size: 1rem;
+}
+
 
 /* MOST POPULAR SECTION */
 
@@ -483,16 +488,10 @@ header nav ul li a:focus {
 
 .popular_price {
     width: 100%;
-    margin-top: 10px;
 }
 
 .stars {
     max-width: 100%;
-}
-
-.display_more {
-    padding-left: 3.5%;
-    font-size: 1rem;
 }
 
 
@@ -507,6 +506,14 @@ header nav ul li a:focus {
     margin-bottom: 15px;
 }
 
+.activities_section article {
+    width: 100%;
+}
+
+.activities_card {
+    width: 100%;
+}
+
 .activity_picture {
     width: 100%;
     border-radius: 15px;
@@ -518,7 +525,6 @@ header nav ul li a:focus {
 
 .activity_picture img {
     position: relative;
-    width: 301px;
 }
 
 .first_activity img,
@@ -551,6 +557,10 @@ header nav ul li a:focus {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #fff;
+}
+
+.activities_name h3 {
+    padding-top: 15px;
 }
 
 
