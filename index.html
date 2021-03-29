@@ -20,79 +20,143 @@
         <nav aria-label="navigation menu" class="flex">
             <!--Navigation menu-->
             <ul class="flex center-justify">
-                <li class="flex nolist font-size-1rem start-align center-justify"><a class="flex black center-justify" href="index.html#accomodations">Hébergements</a></li>
-                <li class="flex nolist font-size-1rem start-align center-justify"><a class="flex black center-justify" href="index.html#activities">Activités</a></li>
-            </ul>
-        </nav>
-        <a class="sign_in flex blue font-size-1rem bold center-align center-justify" href="#">S'inscrire</a>
-
+                <li class="flex nolist font-size-1rem start-align center-justify">
+                    <a class="flex black center-justify" href="index.html#accomodations">Hébergements</a
+            >
+          </li>
+          <li class="flex nolist font-size-1rem start-align center-justify">
+            <a class="flex black center-justify" href="index.html#activities"
+              >Activités</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <a
+        class="sign_in flex blue font-size-1rem bold center-align center-justify"
+        href="#"
+        >S'inscrire</a
+      >
     </header>
 
     <main class="flex column">
-        <section class="search flex column">
-            <!-- Search section-->
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <h2 class="normal-font-weight">En plein centre ville ou en pleine nature</h2>
-            <div class="search_form flex">
-                <i class="fas fa-map-marker-alt cursor hover flex center greyback greyborder border-top-left-radius15 border-bottom-left-radius15 height51"></i>
-                <form class="flex" action="#" method="post">
-                    <input class="city flex font-size-1rem bold black greyborder height51" placeholder="Marseille, France" />
-                    <input class="search_city center blueback blueborder border-top-right-radius-15 cursor flex font-size-1rem bold height51" type="submit" name="search_city" value="Rechercher" />
-                    <i class="fas fa-search flex center cursor height51 blueback blueborder"></i>
-                </form>
-            </div>
-            <form class="filters_form flex center-align" action='#' method="post">
-                <!-- Filters-->
-                <p class="flex font-size-1rem bold">Filtres</p>
-                <a class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-3rd" href="#"><i class="fas fa-money-bill-wave flex center blue"></i>&Eacute;conomique</a>
-                <a class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-1st" href="#"><i class="fas fa-child flex center blue"></i>Familial</a>
-                <a class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-2nd" href="#"><i class="fas fa-heart flex center blue"></i>Romantique</a>
-                <a class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-4th" href="#"><i class="fas fa-dog flex center blue"></i>Animaux autorisés</a>
-            </form>
-            <p class="info flex center-align font-size-1rem"><i class="fas fa-info flex center blue greyborder"></i>Plus de 500 logements sont disponibles dans cette ville</p>
-        </section>
-        <div class="accomodations_in_city flex between">
-            <!-- Accomodations part-->
-            <section id="#accomodations" class="accomodations_section flex column center-align">
-                <!-- Accomodations in city section-->
-                <h2 class="flex self-align-start">Hébergements à Marseille</h2>
-                <div class="accomodations_grid center">
-                    <article class="accomodation_card flex border-radius-15">
-                        <a class="flex center" href="#">
-                            <figure class="accomodation_picture whiteback flex column whiteborder border-radius-15 picture-height">
-                                <img class="cover border-top-radius10 img-height" loading="lazy" src="./assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo d'une chambre de l'Auberge, avec des lits superposés et des fenêtres donnant sur la rue" />
-                                <figcaption class="flex column evenly center-content">
-                                    <ul class="room_info flex column nolist black between">
-                                        <li class="accomodation_name font-size-1rem bold start-align start-justify">Auberge la Cannebière</li>
-                                        <li class="accomodation_price font-size-085">Nuit à partir de <strong>25&euro;</strong></li>
-                                    </ul>
-                                    <div class="accomodation_stars flex blue">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star grey"></i>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </a>
+      <section class="search flex column">
+        <!-- Search section-->
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h2 class="normal-font-weight">
+          En plein centre ville ou en pleine nature
+        </h2>
+        <div class="search_form flex">
+          <i
+            class="fas fa-map-marker-alt cursor hover flex center greyback greyborder border-top-left-radius15 border-bottom-left-radius15 height51"
+          ></i>
+          <form class="flex" action="#" method="post">
+            <input
+              class="city flex font-size-1rem bold black greyborder height51"
+              placeholder="Marseille, France"
+            />
+            <input
+              class="search_city center blueback blueborder border-top-right-radius-15 cursor flex font-size-1rem bold height51"
+              type="submit"
+              name="search_city"
+              value="Rechercher"
+            />
+            <i
+              class="fas fa-search flex center cursor height51 blueback blueborder"
+            ></i>
+          </form>
+        </div>
+        <form class="filters_form flex center-align" action="#" method="post">
+          <!-- Filters-->
+          <p class="flex font-size-1rem bold">Filtres</p>
+          <a
+            class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-3rd"
+            href="#"
+            ><i class="fas fa-money-bill-wave flex center blue"></i
+            >&Eacute;conomique</a
+          >
+          <a
+            class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-1st"
+            href="#"
+            ><i class="fas fa-child flex center blue"></i>Familial</a
+          >
+          <a
+            class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-2nd"
+            href="#"
+            ><i class="fas fa-heart flex center blue"></i>Romantique</a
+          >
+          <a
+            class="filters flex font-size-1rem bold black center-align start-justify border-2px-grey border-radius-25 height50 pad-4th"
+            href="#"
+            ><i class="fas fa-dog flex center blue"></i>Animaux autorisés</a
+          >
+        </form>
+        <p class="info flex center-align font-size-1rem">
+          <i class="fas fa-info flex center blue greyborder"></i>Plus de 500
+          logements sont disponibles dans cette ville
+        </p>
+      </section>
+      <div class="accomodations_in_city flex between">
+        <!-- Accomodations part-->
+        <section
+          id="#accomodations"
+          class="accomodations_section flex column center-align"
+        >
+          <!-- Accomodations in city section-->
+          <h2 class="flex self-align-start">Hébergements à Marseille</h2>
+          <div class="accomodations_grid center">
+            <article class="accomodation_card flex border-radius-15">
+              <a class="flex center" href="#">
+                <figure
+                  class="accomodation_picture whiteback flex column whiteborder border-radius-15 picture-height"
+                >
+                  <img
+                    class="cover border-top-radius10 img-height"
+                    loading="lazy"
+                    src="./assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                    alt="photo d'une chambre de l'Auberge, avec des lits superposés et des fenêtres donnant sur la rue"
+                  />
+                  <figcaption class="flex column evenly center-content">
+                    <header class="room_info flex column nolist black evenly">
+                      <h3
+                        class="accomodation_name font-size-1rem bold start-align start-justify"
+                      >
+                        Auberge la Cannebière
+                      </h3>
+                      <p class="accomodation_price font-size-085">
+                        Nuit à partir de <strong>25&euro;</strong>
+                      </p>
+                      <div class="accomodation_stars flex blue">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star grey"></i>
+                      </div>
+                    </header>
+                  </figcaption>
+                </figure>
+              </a>
                     </article>
                     <article class="accomodation_card flex border-radius-15">
                         <a class="flex center" href="#">
                             <figure class="accomodation_picture whiteback flex column whiteborder border-radius-15 picture-height">
                                 <img class="cover border-top-radius10 img-height" loading="lazy" src="./assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo d'une chambre de l'hôtel du port, avec deux lits individuels" />
                                 <figcaption class="flex column evenly center-content">
-                                    <ul class="room_info flex column nolist black between">
-                                        <li class="accomodation_name font-size-1rem bold start-align start-justify">Hôtel du port</li>
-                                        <li class="accomodation_price font-size-085">Nuit à partir de 52<strong>&euro;</strong></li>
-                                    </ul>
-                                    <div class="accomodation_stars flex blue">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
+                                    <header class="room_info flex column nolist black evenly">
+                                        <h3 class="accomodation_name font-size-1rem bold start-align start-justify">
+                                            Hôtel du port
+                                        </h3>
+                                        <p class="accomodation_price font-size-085">
+                                            Nuit à partir de 52<strong>&euro;</strong>
+                                        </p>
+                                        <div class="accomodation_stars flex blue">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </header>
                                 </figcaption>
                             </figure>
                         </a>
@@ -103,17 +167,21 @@
                                 <img class="cover border-top-radius10 img-height" loading="lazy" src="./assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo d'une chambre de l'hôtel Les mouettes, avec un lit individuel et une grande armoire vitrée à côté du lit"
                                 />
                                 <figcaption class="flex column evenly center-content">
-                                    <ul class="room_info flex column nolist black between">
-                                        <li class="accomodation_name font-size-1rem bold start-align start-justify">Hôtel Les mouettes </li>
-                                        <li class="accomodation_price font-size-085">Nuit à partir de 76<strong>&euro;</strong></li>
-                                    </ul>
-                                    <div class="accomodation_stars flex blue">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star grey"></i>
-                                    </div>
+                                    <header class="room_info flex column nolist black evenly">
+                                        <h3 class="accomodation_name font-size-1rem bold start-align start-justify">
+                                            Hôtel Les mouettes
+                                        </h3>
+                                        <p class="accomodation_price font-size-085">
+                                            Nuit à partir de 76<strong>&euro;</strong>
+                                        </p>
+                                        <div class="accomodation_stars flex blue">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star grey"></i>
+                                        </div>
+                                    </header>
                                 </figcaption>
                             </figure>
                         </a>
@@ -124,17 +192,21 @@
                                 <img class="cover border-top-radius10 img-height" loading="lazy" src="./assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo d'une chambre de l'hôtel de la mer, avec un lit double et une chambre décorée sur le thème marin"
                                 />
                                 <figcaption class="flex column evenly center-content">
-                                    <ul class="room_info flex column nolist black between">
-                                        <li class="accomodation_name font-size-1rem bold start-align start-justify">Hôtel de la mer</li>
-                                        <li class="accomodation_price font-size-085">Nuit à partir de 46<strong>&euro;</strong></li>
-                                    </ul>
-                                    <div class="accomodation_stars flex blue">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star grey"></i>
-                                        <i class="fas fa-star grey"></i>
-                                    </div>
+                                    <header class="room_info flex column nolist black evenly">
+                                        <h3 class="accomodation_name font-size-1rem bold start-align start-justify">
+                                            Hôtel de la mer
+                                        </h3>
+                                        <p class="accomodation_price font-size-085">
+                                            Nuit à partir de 46<strong>&euro;</strong>
+                                        </p>
+                                        <div class="accomodation_stars flex blue">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star grey"></i>
+                                            <i class="fas fa-star grey"></i>
+                                        </div>
+                                    </header>
                                 </figcaption>
                             </figure>
                         </a>
@@ -144,17 +216,21 @@
                             <figure class="accomodation_picture whiteback flex column whiteborder border-radius-15 picture-height">
                                 <img class="cover border-top-radius10 img-height" loading="lazy" src="./assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo d'une chambre de l'auberge Le Panier, avec des lits superposés en bois" />
                                 <figcaption class="flex column evenly center-content">
-                                    <ul class="room_info flex column nolist black between">
-                                        <li class="accomodation_name font-size-1rem bold start-align start-justify">Auberge Le Panier</li>
-                                        <li class="accomodation_price font-size-085">Nuit à partir de <strong>23&euro;</strong></li>
-                                    </ul>
-                                    <div class="accomodation_stars flex blue">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star grey"></i>
-                                    </div>
+                                    <header class="room_info flex column nolist black evenly">
+                                        <h3 class="accomodation_name font-size-1rem bold start-align start-justify">
+                                            Auberge Le Panier
+                                        </h3>
+                                        <p class="accomodation_price font-size-085">
+                                            Nuit à partir de <strong>23&euro;</strong>
+                                        </p>
+                                        <div class="accomodation_stars flex blue">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star grey"></i>
+                                        </div>
+                                    </header>
                                 </figcaption>
                             </figure>
                         </a>
@@ -165,192 +241,217 @@
                                 <img class="cover border-top-radius10 img-height" loading="lazy" src="./assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo d'une chambre de l'hôtel chez Amina, avec deux lits individuels, un bureau et une télévision"
                                 />
                                 <figcaption class="flex column evenly center-content">
-                                    <ul class="room_info flex column nolist black between">
-                                        <li class="accomodation_name font-size-1rem bold start-align start-justify">Hôtel chez Amina</li>
-                                        <li class="accomodation_price font-size-085">Nuit à partir de 96<strong>&euro;</strong></li>
-                                    </ul>
-                                    <div class="accomodation_stars flex blue">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
+                                    <header class="room_info flex column nolist black evenly">
+                                        <h3 class="accomodation_name font-size-1rem bold start-align start-justify">
+                                            Hôtel chez Amina
+                                        </h3>
+                                        <p class="accomodation_price font-size-085">
+                                            Nuit à partir de 96<strong>&euro;</strong>
+                                        </p>
+                                        <div class="accomodation_stars flex blue">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </header>
                                 </figcaption>
                             </figure>
                         </a>
                     </article>
-                </div>
-                <a class="display_more flex black bold center-justify self-align-start hover" href="#">Afficher plus</a>
-            </section>
-            <section class="most_popular flex column greyback">
-                <!-- Most popular section-->
-                <div class="most_popular_title flex greyback between font-weight300">
-                    <h2>Les plus populaires</h2>
-                    <i class="fas fa-chart-line flex center"></i>
-                </div>
-                <article class="flex main-margin column">
-                    <a class="popular_card flex" href="#">
-                        <figure class="popular_picture flex whiteback border-radius-15 border-bottom-left-radius15 border-5px-white">
-                            <img class="cover border-left-radius10" loading="lazy" src="./assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo d'une chambre de l'hôtel le soleil du matin, la chambre est verte avec un grand miroir au dessus de la tête du lit double"
-                            />
-                            <figcaption class="flex column start-align">
-                                <ul class="popular_room_info flex column nolist black start-align padding-left-unset">
-                                    <li class="popular_name bold padding-left-10">Hôtel Le soleil du matin</li>
-                                    <li class="popular_price font-size-09 padding-left-10">Nuit à partir de 128<strong>&euro;</strong></li>
-                                </ul>
-                                <div class="stars font-size-07 flex blue space-around margin-left-10">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-                <article class="flex main-margin column">
-                    <a class="popular_card flex" href="#">
-                        <figure class="popular_picture flex whiteback border-radius-15 border-bottom-left-radius15 border-5px-white">
-                            <img class="cover border-left-radius10" loading="lazy" src="./assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo d'une chambre d'Au coeur de l'eau, chambre d'hôtes: un lit double dans une chambre avec une décoration moderne"
-                            />
-                            <figcaption class="flex column start-align">
-                                <ul class="popular_room_info flex column nolist black start-align padding-left-unset">
-                                    <li class="popular_name bold padding-left-10">Au coeur de l'eau Chambres d'hôtes</li>
-                                    <li class="popular_price font-size-09 padding-left-10">Nuit à partir de 71<strong>&euro;</strong></li>
-                                </ul>
-                                <div class="stars font-size-07 flex blue space-around padding-left-10">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star grey"></i>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-                <article class="flex main-margin column">
-                    <a class="popular_card flex" href="#">
-                        <figure class="popular_picture flex whiteback border-radius-15 border-bottom-left-radius15 border-5px-white">
-                            <img class="cover border-left-radius10" loading="lazy" src="./assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo d'une chambre de l'hôtel tout bleu tout blanc, avec une lit double et deux chevets en bois" />
-                            <figcaption class="flex column start-align">
-                                <ul class="popular_room_info flex column nolist black start-align padding-left-unset">
-                                    <li class="popular_name bold padding-left-10">Hôtel tout bleu et Blanc</li>
-                                    <li class="popular_price font-size-09 padding-left-10">Nuit à partir de 68<strong>&euro;</strong></li>
-                                </ul>
-                                <div class="stars font-size-07 flex blue space-around padding-left-10">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star grey"></i>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-            </section>
-        </div>
-        <section id="#activities" class="activities_section flex column">
-            <!-- Activities section-->
-            <h2 class="flex start-justify">Activités à Marseille</h2>
-            <div class="activities_in_city flex between mobile-flex-column">
-                <div class="first_column column-width">
-                    <article class="first_activity first_activity-height flex mobile-flex">
-                        <a class="activities_card first_activity-height flex" href="#">
-                            <figure class="activity_picture first_activity-height flex column">
-                                <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du Vieux Port de Marseille" />
-                                <figcaption class="activities_name flex center-align black bold">
-                                    Vieux Port
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                </div>
-                <div class="second_column flex between column column-width">
-                    <article class="second_activity second_activity-height flex mobile-flex">
-                        <a class="activities_card second_activity-height flex" href="#">
-                            <figure class="activity_picture second_activity-height flex column">
-                                <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du Fort de Pomègues" />
-                                <figcaption class="activities_name flex center-align black bold">
-                                    Fort de Pomègues
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                    <article class="third_activity third_activity-height flex mobile-flex">
-                        <a class="activities_card third_activity-height flex" href="#">
-                            <figure class="activity_picture third_activity-height flex column">
-                                <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photos des îles du Frioul" />
-                                <figcaption class="activities_name flex center-align black bold">
-                                    Îles du Frioul
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                </div>
-                <div class="third_column column-width">
-                    <article class="fourth_activity fourth_activity-height flex mobile-flex">
-                        <a class="activities_card fourth_activity-height flex" href="#">
-                            <figure class="activity_picture fourth_activity-height flex column">
-                                <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo de Calanques" />
-                                <figcaption class="activities_name flex center-align black bold">
-                                    Parc National des Calanques
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                </div>
-                <div class="fourth_column flex column between column-width">
-                    <article class="fifth_activity fifth_activity-height flex mobile-flex">
-                        <a class="activities_card fifth_activity-height flex " href="#">
-                            <figure class="activity_picture fifth_activity-height flex column">
-                                <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre-Dame-de-la-Garde" />
-                                <figcaption class="activities_name flex center-align black bold">
-                                    Notre-Dame-de-la-Garde
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                    <article class="sixth_activity sixth_activity-height flex mobile-flex">
-                        <a class="activities_card sixth_activity-height flex" href="#">
-                            <figure class="activity_picture sixth_activity-height flex column">
-                                <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo du Parc Longchamp" />
-                                <figcaption class="activities_name flex center-align black bold">
-                                    Parc Longchamp
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                </div>
-            </div>
+                    </div>
+                    <a class="display_more flex black bold center-justify self-align-start hover" href="#">Afficher plus</a
+          >
         </section>
-    </main>
+        <section class="most_popular flex column greyback">
+          <!-- Most popular section-->
+          <div class="most_popular_title flex greyback between font-weight300">
+            <h2>Les plus populaires</h2>
+            <i class="fas fa-chart-line flex center"></i>
+          </div>
+          <article class="flex main-margin column">
+            <a class="popular_card flex" href="#">
+              <figure
+                class="popular_picture flex whiteback border-radius-15 border-bottom-left-radius15 border-5px-white"
+              >
+                <img
+                  class="cover border-left-radius10"
+                  loading="lazy"
+                  src="./assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                  alt="photo d'une chambre de l'hôtel le soleil du matin, la chambre est verte avec un grand miroir au dessus de la tête du lit double"
+                />
+                <figcaption class="flex column start-align">
+                  <header
+                    class="popular_room_info flex column nolist black start-align padding-left-unset"
+                  >
+                    <h3 class="popular_name bold padding-left-10">
+                      Hôtel Le soleil du matin
+                    </h3>
+                    <p class="popular_price font-size-09 padding-left-10">
+                      Nuit à partir de 128<strong>&euro;</strong>
+                    </p>
 
+                    <div
+                      class="stars font-size-07 flex blue space-around margin-left-10"
+                    >
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </header>
+                </figcaption>
+              </figure>
+            </a>
+                    </article>
+                    <article class="flex main-margin column">
+                        <a class="popular_card flex" href="#">
+                            <figure class="popular_picture flex whiteback border-radius-15 border-bottom-left-radius15 border-5px-white">
+                                <img class="cover border-left-radius10" loading="lazy" src="./assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo d'une chambre d'Au coeur de l'eau, chambre d'hôtes: un lit double dans une chambre avec une décoration moderne"
+                                />
+                                <figcaption class="flex column start-align">
+                                    <header class="popular_room_info flex column nolist black start-align padding-left-unset">
+                                        <h3 class="popular_name bold padding-left-10">
+                                            Au coeur de l'eau Chambres d'hôtes
+                                        </h3>
+                                        <p class="popular_price font-size-09 padding-left-10">
+                                            Nuit à partir de 71<strong>&euro;</strong>
+                                        </p>
+                                        <div class="stars font-size-07 flex blue space-around padding-left-10">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star grey"></i>
+                                        </div>
+                                    </header>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="flex main-margin column">
+                        <a class="popular_card flex" href="#">
+                            <figure class="popular_picture flex whiteback border-radius-15 border-bottom-left-radius15 border-5px-white">
+                                <img class="cover border-left-radius10" loading="lazy" src="./assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo d'une chambre de l'hôtel tout bleu tout blanc, avec une lit double et deux chevets en bois" />
+                                <figcaption class="flex column start-align">
+                                    <header class="popular_room_info flex column nolist black start-align padding-left-unset">
+                                        <h3 class="popular_name bold padding-left-10">
+                                            Hôtel tout bleu et Blanc
+                                        </h3>
+                                        <p class="popular_price font-size-09 padding-left-10">
+                                            Nuit à partir de 68<strong>&euro;</strong>
+                                        </p>
+                                        <div class="stars font-size-07 flex blue space-around padding-left-10">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star grey"></i>
+                                        </div>
+                                    </header>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    </section>
+                    </div>
+                    <section id="#activities" class="activities_section flex column">
+                        <!-- Activities section-->
+                        <h2 class="flex start-justify">Activités à Marseille</h2>
+                        <div class="activities_in_city flex between mobile-flex-column">
+                            <div class="first_column column-width">
+                                <article class="first_activity first_activity-height flex mobile-flex">
+                                    <a class="activities_card first_activity-height flex" href="#">
+                                        <figure class="activity_picture first_activity-height flex column">
+                                            <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du Vieux Port de Marseille" />
+                                            <figcaption class="activities_name flex center-align black bold">
+                                                Vieux Port
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="second_column flex between column column-width">
+                                <article class="second_activity second_activity-height flex mobile-flex">
+                                    <a class="activities_card second_activity-height flex" href="#">
+                                        <figure class="activity_picture second_activity-height flex column">
+                                            <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du Fort de Pomègues" />
+                                            <figcaption class="activities_name flex center-align black bold">
+                                                Fort de Pomègues
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </article>
+                                <article class="third_activity third_activity-height flex mobile-flex">
+                                    <a class="activities_card third_activity-height flex" href="#">
+                                        <figure class="activity_picture third_activity-height flex column">
+                                            <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photos des îles du Frioul" />
+                                            <figcaption class="activities_name flex center-align black bold">
+                                                Îles du Frioul
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="third_column column-width">
+                                <article class="fourth_activity fourth_activity-height flex mobile-flex">
+                                    <a class="activities_card fourth_activity-height flex" href="#">
+                                        <figure class="activity_picture fourth_activity-height flex column">
+                                            <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo de Calanques" />
+                                            <figcaption class="activities_name flex center-align black bold">
+                                                Parc National des Calanques
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="fourth_column flex column between column-width">
+                                <article class="fifth_activity fifth_activity-height flex mobile-flex">
+                                    <a class="activities_card fifth_activity-height flex" href="#">
+                                        <figure class="activity_picture fifth_activity-height flex column">
+                                            <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre-Dame-de-la-Garde" />
+                                            <figcaption class="activities_name flex center-align black bold">
+                                                Notre-Dame-de-la-Garde
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </article>
+                                <article class="sixth_activity sixth_activity-height flex mobile-flex">
+                                    <a class="activities_card sixth_activity-height flex" href="#">
+                                        <figure class="activity_picture sixth_activity-height flex column">
+                                            <img class="border-radius10" loading="lazy" src="./assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo du Parc Longchamp" />
+                                            <figcaption class="activities_name flex center-align black bold">
+                                                Parc Longchamp
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                    </main>
 
-    <footer class="flex greyback">
-        <!-- Footer-->
-        <nav class="flex column" aria-label="about">
-            <h3>A propos</h3>
-            <a class="hover black" href="#">Fonctionnement du site</a>
-            <a class="hover black" href="#">Conditions générales de vente</a>
-            <a class="hover black" href="#">Données et confidentialité</a>
-        </nav>
-        <nav class="flex column" aria-label="our_accomodations">
-            <h3>Nos hébergements</h3>
-            <a class="hover black" href="#">Charte qualité</a>
-            <a class="hover black" href="#">Soumettre votre hôtel</a>
-        </nav>
-        <nav class="flex column" aria-label="help">
-            <h3>Assistance</h3>
-            <a class="hover black" href="#">Centre d'aide</a>
-            <a class="hover black" href="#">Nous contacter</a>
-        </nav>
-
-    </footer>
-
+                    <footer class="flex greyback">
+                        <!-- Footer-->
+                        <nav class="flex column" aria-label="about">
+                            <h3>A propos</h3>
+                            <a class="hover black" href="#">Fonctionnement du site</a>
+                            <a class="hover black" href="#">Conditions générales de vente</a>
+                            <a class="hover black" href="#">Données et confidentialité</a>
+                        </nav>
+                        <nav class="flex column" aria-label="our_accomodations">
+                            <h3>Nos hébergements</h3>
+                            <a class="hover black" href="#">Charte qualité</a>
+                            <a class="hover black" href="#">Soumettre votre hôtel</a>
+                        </nav>
+                        <nav class="flex column" aria-label="help">
+                            <h3>Assistance</h3>
+                            <a class="hover black" href="#">Centre d'aide</a>
+                            <a class="hover black" href="#">Nous contacter</a>
+                        </nav>
+                    </footer>
 </body>
 
 </html>

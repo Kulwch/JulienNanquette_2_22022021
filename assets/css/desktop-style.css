@@ -70,7 +70,7 @@ header nav ul li a:hover {
     margin-left: 1%;
     gap: 30px;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(246px, 1fr));
+    grid-template-columns: repeat(3, 30%);
 }
 
 .display_more {
@@ -92,20 +92,11 @@ header nav ul li a:hover {
     font-size: 0.85rem;
 }
 
-.popular_room_info {
-    height: 58px;
-}
-
-.stars {
-    margin-top: 50px;
-}
-
 
 /* ACTIVITIES SECTION */
 
 .activities_in_city {
     flex-basis: 100%;
-    flex-flow: row wrap;
 }
 
 .activities_in_city article {

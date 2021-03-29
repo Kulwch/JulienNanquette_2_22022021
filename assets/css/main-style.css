@@ -15,7 +15,7 @@ Tags : Site, Reservia, Location, Reservation, Vacances, Hébergements ;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 body a {
@@ -174,7 +174,7 @@ body a {
 }
 
 .greyback {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
 }
 
 .blueback {
@@ -188,7 +188,7 @@ body a {
 /* Colors */
 
 .greyborder {
-    border: 1px solid #F2F2F2;
+    border: 1px solid #f2f2f2;
 }
 
 .whiteborder {
@@ -341,9 +341,9 @@ header nav ul li a:focus {
 .fa-dog {
     width: 50px;
     height: 50px;
-    border: 1px solid #DEEBFF;
+    border: 1px solid #deebff;
     border-radius: 50%;
-    background-color: #DEEBFF;
+    background-color: #deebff;
 }
 
 .city::placeholder {
@@ -407,20 +407,21 @@ header nav ul li a:focus {
 
 .img-height {
     height: 114px;
+    width: 100%;
 }
 
-.accomodation_stars {
-    align-items: flex-start;
-    max-height: 20px;
+.accomodation_card a {
+    width: 100%;
+}
+
+.accomodation_picture {
+    border: 5px solid #fff;
+    width: 100%;
 }
 
 .accomodation_picture figcaption {
     height: 75px;
     padding-left: 3.7%;
-}
-
-.accomodation_picture {
-    border: 5px solid #fff;
 }
 
 .room_info {
@@ -431,6 +432,8 @@ header nav ul li a:focus {
 .accomodation_stars {
     width: 10vw;
     font-size: 0.75rem;
+    align-items: flex-start;
+    max-height: 20px;
 }
 
 
@@ -484,7 +487,6 @@ header nav ul li a:focus {
 }
 
 .stars {
-    margin-top: 40px;
     max-width: 100%;
 }
 
